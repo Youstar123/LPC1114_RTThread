@@ -1,0 +1,608 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/Clion/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineSystem.cmake:200 (message)"
+      - "CMakeLists.txt:27 (PROJECT)"
+    message: |
+      The target system is: Generic -  - cortex-m0
+      The host system is: Windows - 10.0.26100 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/Clion/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "E:/Clion/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "E:/Clion/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:27 (PROJECT)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: E:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/arm-none-eabi-gcc.exe 
+      Build flags: -mcpu=cortex-m0;-mthumb;-ffunction-sections;-fdata-sections;-Wall;-O0;-gdwarf-2
+      Id flags:  
+      
+      The output was:
+      1
+      e:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/ld.exe: e:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\\libg.a(lib_a-exit.o): in function `exit':
+      exit.c:(.text.exit+0x18): undefined reference to `_exit'
+      collect2.exe: error: ld returned 1 exit status
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/Clion/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "E:/Clion/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "E:/Clion/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:27 (PROJECT)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: E:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/arm-none-eabi-gcc.exe 
+      Build flags: -mcpu=cortex-m0;-mthumb;-ffunction-sections;-fdata-sections;-Wall;-O0;-gdwarf-2
+      Id flags: -c 
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
+      
+      The C compiler identification is GNU, found in:
+        E:/1_qianrushi_car/LPC1114_RTThread/cmake-build-debug/CMakeFiles/3.29.6/CompilerIdC/CMakeCCompilerId.o
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/Clion/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "E:/Clion/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "E:/Clion/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:27 (PROJECT)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: E:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/arm-none-eabi-g++.exe 
+      Build flags: -mcpu=cortex-m0;-mthumb;-ffunction-sections;-fdata-sections;-Wall;-O0;-gdwarf-2
+      Id flags:  
+      
+      The output was:
+      1
+      e:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/ld.exe: e:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\\libg.a(lib_a-exit.o): in function `exit':
+      exit.c:(.text.exit+0x18): undefined reference to `_exit'
+      collect2.exe: error: ld returned 1 exit status
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/Clion/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "E:/Clion/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "E:/Clion/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:27 (PROJECT)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: E:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/arm-none-eabi-g++.exe 
+      Build flags: -mcpu=cortex-m0;-mthumb;-ffunction-sections;-fdata-sections;-Wall;-O0;-gdwarf-2
+      Id flags: -c 
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
+      
+      The CXX compiler identification is GNU, found in:
+        E:/1_qianrushi_car/LPC1114_RTThread/cmake-build-debug/CMakeFiles/3.29.6/CompilerIdCXX/CMakeCXXCompilerId.o
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/Clion/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:1165 (message)"
+      - "E:/Clion/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineASMCompiler.cmake:135 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "CMakeLists.txt:27 (PROJECT)"
+    message: |
+      Checking whether the ASM compiler is GNU using "--version" matched "(GNU assembler)|(GCC)|(Free Software Foundation)":
+      arm-none-eabi-gcc.exe (GNU Arm Embedded Toolchain 10.3-2021.10) 10.3.1 20210824 (release)
+      Copyright (C) 2020 Free Software Foundation, Inc.
+      This is free software; see the source for copying conditions.  There is NO
+      warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "E:/Clion/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:67 (try_compile)"
+      - "E:/Clion/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:27 (PROJECT)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "E:/1_qianrushi_car/LPC1114_RTThread/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-mbueu0"
+      binary: "E:/1_qianrushi_car/LPC1114_RTThread/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-mbueu0"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -mcpu=cortex-m0 -mthumb -ffunction-sections -fdata-sections -Wall -O0 -gdwarf-2"
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: " -mcpu=cortex-m0 -mthumb -ffunction-sections -fdata-sections -nostartfiles -Wl,--gc-sections,-Map=rtthread.map,-cref,-u,Reset_Handler -T E:/1_qianrushi_car/LPC1114_RTThread/link.lds -Wl,--gc-sections,--print-memory-usage"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/1_qianrushi_car/LPC1114_RTThread/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-mbueu0'
+        
+        Run Build Command(s): "E:/Clion/CLion 2023.2.2/bin/ninja/win/x64/ninja.exe" -v cmTC_3d2fb
+        [1/2] E:\\env-windows-v2.0.0\\env-windows\\tools\\gnu_gcc\\arm_gcc\\mingw\\bin\\arm-none-eabi-gcc.exe   -mcpu=cortex-m0 -mthumb -ffunction-sections -fdata-sections -Wall -O0 -gdwarf-2  -std=gnu11 -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_3d2fb.dir/CMakeCCompilerABI.c.obj -c "E:/Clion/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCCompilerABI.c"
+        Using built-in specs.
+        COLLECT_GCC=E:\\env-windows-v2.0.0\\env-windows\\tools\\gnu_gcc\\arm_gcc\\mingw\\bin\\arm-none-eabi-gcc.exe
+        Target: arm-none-eabi
+        Configured with: /mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/src/gcc/configure --build=x86_64-linux-gnu --host=i686-w64-mingw32 --target=arm-none-eabi --prefix=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw --libexecdir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/lib --infodir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/share/doc/gcc-arm-none-eabi/info --mandir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/share/doc/gcc-arm-none-eabi/man --htmldir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/share/doc/gcc-arm-none-eabi/html --pdfdir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/share/doc/gcc-arm-none-eabi/pdf --enable-languages=c,c++ --enable-mingw-wildcard --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --disable-tls --with-gnu-as --with-gnu-ld --with-headers=yes --with-newlib --with-python-dir=share/gcc-arm-none-eabi --with-sysroot=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/arm-none-eabi --with-libiconv-prefix=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-mingw/host-libs/usr --with-gmp=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-mingw/host-libs/usr --with-mpfr=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-mingw/host-libs/usr --with-mpc=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-mingw/host-libs/usr --with-isl=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-mingw/host-libs/usr --with-libelf=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-mingw/host-libs/usr --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --with-pkgversion='GNU Arm Embedded Toolchain 10.3-2021.10' --with-multilib-list=rmprofile,aprofile
+        Thread model: single
+        Supported LTO compression algorithms: zlib
+        gcc version 10.3.1 20210824 (release) (GNU Arm Embedded Toolchain 10.3-2021.10) 
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-mcpu=cortex-m0' '-mthumb' '-ffunction-sections' '-fdata-sections' '-Wall' '-O0' '-gdwarf-2' '-std=gnu11' '-v' '-o' 'CMakeFiles/cmTC_3d2fb.dir/CMakeCCompilerABI.c.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m'
+         e:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../lib/gcc/arm-none-eabi/10.3.1/cc1.exe -quiet -v -imultilib thumb/v6-m/nofp -iprefix e:\\env-windows-v2.0.0\\env-windows\\tools\\gnu_gcc\\arm_gcc\\mingw\\bin\\../lib/gcc/arm-none-eabi/10.3.1/ -isysroot e:\\env-windows-v2.0.0\\env-windows\\tools\\gnu_gcc\\arm_gcc\\mingw\\bin\\../arm-none-eabi -D__USES_INITFINI__ E:/Clion/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mcpu=cortex-m0 -mthumb -mfloat-abi=soft -mlibarch=armv6s-m -march=armv6s-m -auxbase-strip CMakeFiles/cmTC_3d2fb.dir/CMakeCCompilerABI.c.obj -gdwarf-2 -O0 -Wall -std=gnu11 -version -fdiagnostics-color=always -ffunction-sections -fdata-sections -o C:\\Users\\Youstar\\AppData\\Local\\Temp\\ccWzvENq.s
+        GNU C11 (GNU Arm Embedded Toolchain 10.3-2021.10) version 10.3.1 20210824 (release) (arm-none-eabi)
+        	compiled by GNU C version 7.3-win32 20180312, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring duplicate directory "e:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/lib/gcc/../../lib/gcc/arm-none-eabi/10.3.1/include"
+        ignoring nonexistent directory "e:\\env-windows-v2.0.0\\env-windows\\tools\\gnu_gcc\\arm_gcc\\mingw\\bin\\../arm-none-eabi/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/lib/gcc/arm-none-eabi/10.3.1/../../../../include"
+        ignoring duplicate directory "e:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/lib/gcc/../../lib/gcc/arm-none-eabi/10.3.1/include-fixed"
+        ignoring duplicate directory "e:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/lib/gcc/../../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include"
+        ignoring nonexistent directory "e:\\env-windows-v2.0.0\\env-windows\\tools\\gnu_gcc\\arm_gcc\\mingw\\bin\\../arm-none-eabi/usr/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         e:\\env-windows-v2.0.0\\env-windows\\tools\\gnu_gcc\\arm_gcc\\mingw\\bin\\../lib/gcc/arm-none-eabi/10.3.1/include
+         e:\\env-windows-v2.0.0\\env-windows\\tools\\gnu_gcc\\arm_gcc\\mingw\\bin\\../lib/gcc/arm-none-eabi/10.3.1/include-fixed
+         e:\\env-windows-v2.0.0\\env-windows\\tools\\gnu_gcc\\arm_gcc\\mingw\\bin\\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include
+        End of search list.
+        GNU C11 (GNU Arm Embedded Toolchain 10.3-2021.10) version 10.3.1 20210824 (release) (arm-none-eabi)
+        	compiled by GNU C version 7.3-win32 20180312, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        Compiler executable checksum: f3937ce18b4177bfd408ca565336596a
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-mcpu=cortex-m0' '-mthumb' '-ffunction-sections' '-fdata-sections' '-Wall' '-O0' '-gdwarf-2' '-std=gnu11' '-v' '-o' 'CMakeFiles/cmTC_3d2fb.dir/CMakeCCompilerABI.c.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m'
+         e:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv6s-m -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_3d2fb.dir/CMakeCCompilerABI.c.obj C:\\Users\\Youstar\\AppData\\Local\\Temp\\ccWzvENq.s
+        GNU assembler version 2.36.1 (arm-none-eabi) using BFD version (GNU Arm Embedded Toolchain 10.3-2021.10) 2.36.1.20210621
+        COMPILER_PATH=e:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../lib/gcc/arm-none-eabi/10.3.1/;e:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../lib/gcc/;e:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/
+        LIBRARY_PATH=e:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/;e:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/;e:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../arm-none-eabi/lib/thumb/v6-m/nofp/;e:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../lib/gcc/arm-none-eabi/10.3.1/;e:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../lib/gcc/;e:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/;e:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../arm-none-eabi/lib/
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-mcpu=cortex-m0' '-mthumb' '-ffunction-sections' '-fdata-sections' '-Wall' '-O0' '-gdwarf-2' '-std=gnu11' '-v' '-o' 'CMakeFiles/cmTC_3d2fb.dir/CMakeCCompilerABI.c.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m'\x0d
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && E:\\env-windows-v2.0.0\\env-windows\\tools\\gnu_gcc\\arm_gcc\\mingw\\bin\\arm-none-eabi-gcc.exe -mcpu=cortex-m0 -mthumb -ffunction-sections -fdata-sections -Wall -O0 -gdwarf-2 -mcpu=cortex-m0 -mthumb -ffunction-sections -fdata-sections -nostartfiles -Wl,--gc-sections,-Map=rtthread.map,-cref,-u,Reset_Handler -T E:/1_qianrushi_car/LPC1114_RTThread/link.lds -Wl,--gc-sections,--print-memory-usage -v CMakeFiles/cmTC_3d2fb.dir/CMakeCCompilerABI.c.obj -o cmTC_3d2fb   && cd ."
+        Using built-in specs.
+        COLLECT_GCC=E:\\env-windows-v2.0.0\\env-windows\\tools\\gnu_gcc\\arm_gcc\\mingw\\bin\\arm-none-eabi-gcc.exe
+        COLLECT_LTO_WRAPPER=e:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../lib/gcc/arm-none-eabi/10.3.1/lto-wrapper.exe
+        Target: arm-none-eabi
+        Configured with: /mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/src/gcc/configure --build=x86_64-linux-gnu --host=i686-w64-mingw32 --target=arm-none-eabi --prefix=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw --libexecdir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/lib --infodir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/share/doc/gcc-arm-none-eabi/info --mandir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/share/doc/gcc-arm-none-eabi/man --htmldir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/share/doc/gcc-arm-none-eabi/html --pdfdir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/share/doc/gcc-arm-none-eabi/pdf --enable-languages=c,c++ --enable-mingw-wildcard --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --disable-tls --with-gnu-as --with-gnu-ld --with-headers=yes --with-newlib --with-python-dir=share/gcc-arm-none-eabi --with-sysroot=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/arm-none-eabi --with-libiconv-prefix=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-mingw/host-libs/usr --with-gmp=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-mingw/host-libs/usr --with-mpfr=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-mingw/host-libs/usr --with-mpc=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-mingw/host-libs/usr --with-isl=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-mingw/host-libs/usr --with-libelf=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-mingw/host-libs/usr --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --with-pkgversion='GNU Arm Embedded Toolchain 10.3-2021.10' --with-multilib-list=rmprofile,aprofile
+        Thread model: single
+        Supported LTO compression algorithms: zlib
+        gcc version 10.3.1 20210824 (release) (GNU Arm Embedded Toolchain 10.3-2021.10) 
+        COMPILER_PATH=e:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../lib/gcc/arm-none-eabi/10.3.1/;e:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../lib/gcc/;e:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/
+        LIBRARY_PATH=e:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/;e:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/;e:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../arm-none-eabi/lib/thumb/v6-m/nofp/;e:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../lib/gcc/arm-none-eabi/10.3.1/;e:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../lib/gcc/;e:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/;e:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../arm-none-eabi/lib/
+        COLLECT_GCC_OPTIONS='-Wall' '-O0' '-gdwarf-2' '-mcpu=cortex-m0' '-mthumb' '-ffunction-sections' '-fdata-sections' '-nostartfiles' '-T' 'E:/1_qianrushi_car/LPC1114_RTThread/link.lds' '-v' '-o' 'cmTC_3d2fb' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m'
+         e:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../lib/gcc/arm-none-eabi/10.3.1/collect2.exe -plugin e:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../lib/gcc/arm-none-eabi/10.3.1/liblto_plugin-0.dll -plugin-opt=e:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../lib/gcc/arm-none-eabi/10.3.1/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\Youstar\\AppData\\Local\\Temp\\ccCvm3Pv.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lg -plugin-opt=-pass-through=-lc --sysroot=e:\\env-windows-v2.0.0\\env-windows\\tools\\gnu_gcc\\arm_gcc\\mingw\\bin\\../arm-none-eabi -X -o cmTC_3d2fb -Le:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp -Le:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp -Le:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../arm-none-eabi/lib/thumb/v6-m/nofp -Le:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../lib/gcc/arm-none-eabi/10.3.1 -Le:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../lib/gcc -Le:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib -Le:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../arm-none-eabi/lib --gc-sections -Map=rtthread.map -cref -u Reset_Handler --gc-sections --print-memory-usage CMakeFiles/cmTC_3d2fb.dir/CMakeCCompilerABI.c.obj --start-group -lgcc -lg -lc --end-group -T E:/1_qianrushi_car/LPC1114_RTThread/link.lds
+        e:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/ld.exe:E:/1_qianrushi_car/LPC1114_RTThread/link.lds:50: warning: memory region `CODE' not declared
+        e:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/ld.exe:E:/1_qianrushi_car/LPC1114_RTThread/link.lds:77: warning: memory region `DATA' not declared
+        e:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/ld.exe: warning: cannot find entry symbol Reset_Handler; defaulting to 00000000
+        Memory region         Used Size  Region Size  %age Used
+                     RAM:          0 GB         8 KB      0.00%
+                   FLASH:          0 GB        32 KB      0.00%\x0d
+                    CODE:          0 GB 4294967295 B      0.00%\x0d
+                    DATA:         256 B 4294967295 B      0.00%\x0d
+        COLLECT_GCC_OPTIONS='-Wall' '-O0' '-gdwarf-2' '-mcpu=cortex-m0' '-mthumb' '-ffunction-sections' '-fdata-sections' '-nostartfiles' '-T' 'E:/1_qianrushi_car/LPC1114_RTThread/link.lds' '-v' '-o' 'cmTC_3d2fb' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m'\x0d
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/Clion/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:137 (message)"
+      - "E:/Clion/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:27 (PROJECT)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [e:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../lib/gcc/arm-none-eabi/10.3.1/include]
+          add: [e:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../lib/gcc/arm-none-eabi/10.3.1/include-fixed]
+          add: [e:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include]
+        end of search list found
+        collapse include dir [e:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../lib/gcc/arm-none-eabi/10.3.1/include] ==> [E:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/lib/gcc/arm-none-eabi/10.3.1/include]
+        collapse include dir [e:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../lib/gcc/arm-none-eabi/10.3.1/include-fixed] ==> [E:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/lib/gcc/arm-none-eabi/10.3.1/include-fixed]
+        collapse include dir [e:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include] ==> [E:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/arm-none-eabi/include]
+        implicit include dirs: [E:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/lib/gcc/arm-none-eabi/10.3.1/include;E:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/lib/gcc/arm-none-eabi/10.3.1/include-fixed;E:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/arm-none-eabi/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/Clion/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:173 (message)"
+      - "E:/Clion/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:27 (PROJECT)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
+        ignore line: [Change Dir: 'E:/1_qianrushi_car/LPC1114_RTThread/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-mbueu0']
+        ignore line: []
+        ignore line: [Run Build Command(s): "E:/Clion/CLion 2023.2.2/bin/ninja/win/x64/ninja.exe" -v cmTC_3d2fb]
+        ignore line: [[1/2] E:\\env-windows-v2.0.0\\env-windows\\tools\\gnu_gcc\\arm_gcc\\mingw\\bin\\arm-none-eabi-gcc.exe   -mcpu=cortex-m0 -mthumb -ffunction-sections -fdata-sections -Wall -O0 -gdwarf-2  -std=gnu11 -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_3d2fb.dir/CMakeCCompilerABI.c.obj -c "E:/Clion/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCCompilerABI.c"]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=E:\\env-windows-v2.0.0\\env-windows\\tools\\gnu_gcc\\arm_gcc\\mingw\\bin\\arm-none-eabi-gcc.exe]
+        ignore line: [Target: arm-none-eabi]
+        ignore line: [Configured with: /mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/src/gcc/configure --build=x86_64-linux-gnu --host=i686-w64-mingw32 --target=arm-none-eabi --prefix=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw --libexecdir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/lib --infodir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/share/doc/gcc-arm-none-eabi/info --mandir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/share/doc/gcc-arm-none-eabi/man --htmldir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/share/doc/gcc-arm-none-eabi/html --pdfdir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/share/doc/gcc-arm-none-eabi/pdf --enable-languages=c,c++ --enable-mingw-wildcard --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --disable-tls --with-gnu-as --with-gnu-ld --with-headers=yes --with-newlib --with-python-dir=share/gcc-arm-none-eabi --with-sysroot=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/arm-none-eabi --with-libiconv-prefix=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-mingw/host-libs/usr --with-gmp=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-mingw/host-libs/usr --with-mpfr=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-mingw/host-libs/usr --with-mpc=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-mingw/host-libs/usr --with-isl=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-mingw/host-libs/usr --with-libelf=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-mingw/host-libs/usr --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --with-pkgversion='GNU Arm Embedded Toolchain 10.3-2021.10' --with-multilib-list=rmprofile,aprofile]
+        ignore line: [Thread model: single]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 10.3.1 20210824 (release) (GNU Arm Embedded Toolchain 10.3-2021.10) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-mcpu=cortex-m0' '-mthumb' '-ffunction-sections' '-fdata-sections' '-Wall' '-O0' '-gdwarf-2' '-std=gnu11' '-v' '-o' 'CMakeFiles/cmTC_3d2fb.dir/CMakeCCompilerABI.c.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m']
+        ignore line: [ e:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../lib/gcc/arm-none-eabi/10.3.1/cc1.exe -quiet -v -imultilib thumb/v6-m/nofp -iprefix e:\\env-windows-v2.0.0\\env-windows\\tools\\gnu_gcc\\arm_gcc\\mingw\\bin\\../lib/gcc/arm-none-eabi/10.3.1/ -isysroot e:\\env-windows-v2.0.0\\env-windows\\tools\\gnu_gcc\\arm_gcc\\mingw\\bin\\../arm-none-eabi -D__USES_INITFINI__ E:/Clion/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mcpu=cortex-m0 -mthumb -mfloat-abi=soft -mlibarch=armv6s-m -march=armv6s-m -auxbase-strip CMakeFiles/cmTC_3d2fb.dir/CMakeCCompilerABI.c.obj -gdwarf-2 -O0 -Wall -std=gnu11 -version -fdiagnostics-color=always -ffunction-sections -fdata-sections -o C:\\Users\\Youstar\\AppData\\Local\\Temp\\ccWzvENq.s]
+        ignore line: [GNU C11 (GNU Arm Embedded Toolchain 10.3-2021.10) version 10.3.1 20210824 (release) (arm-none-eabi)]
+        ignore line: [	compiled by GNU C version 7.3-win32 20180312  GMP version 6.1.0  MPFR version 3.1.4  MPC version 1.0.3  isl version isl-0.18-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring duplicate directory "e:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/lib/gcc/../../lib/gcc/arm-none-eabi/10.3.1/include"]
+        ignore line: [ignoring nonexistent directory "e:\\env-windows-v2.0.0\\env-windows\\tools\\gnu_gcc\\arm_gcc\\mingw\\bin\\../arm-none-eabi/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/lib/gcc/arm-none-eabi/10.3.1/../../../../include"]
+        ignore line: [ignoring duplicate directory "e:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/lib/gcc/../../lib/gcc/arm-none-eabi/10.3.1/include-fixed"]
+        ignore line: [ignoring duplicate directory "e:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/lib/gcc/../../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include"]
+        ignore line: [ignoring nonexistent directory "e:\\env-windows-v2.0.0\\env-windows\\tools\\gnu_gcc\\arm_gcc\\mingw\\bin\\../arm-none-eabi/usr/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ e:\\env-windows-v2.0.0\\env-windows\\tools\\gnu_gcc\\arm_gcc\\mingw\\bin\\../lib/gcc/arm-none-eabi/10.3.1/include]
+        ignore line: [ e:\\env-windows-v2.0.0\\env-windows\\tools\\gnu_gcc\\arm_gcc\\mingw\\bin\\../lib/gcc/arm-none-eabi/10.3.1/include-fixed]
+        ignore line: [ e:\\env-windows-v2.0.0\\env-windows\\tools\\gnu_gcc\\arm_gcc\\mingw\\bin\\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include]
+        ignore line: [End of search list.]
+        ignore line: [GNU C11 (GNU Arm Embedded Toolchain 10.3-2021.10) version 10.3.1 20210824 (release) (arm-none-eabi)]
+        ignore line: [	compiled by GNU C version 7.3-win32 20180312  GMP version 6.1.0  MPFR version 3.1.4  MPC version 1.0.3  isl version isl-0.18-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [Compiler executable checksum: f3937ce18b4177bfd408ca565336596a]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-mcpu=cortex-m0' '-mthumb' '-ffunction-sections' '-fdata-sections' '-Wall' '-O0' '-gdwarf-2' '-std=gnu11' '-v' '-o' 'CMakeFiles/cmTC_3d2fb.dir/CMakeCCompilerABI.c.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m']
+        ignore line: [ e:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv6s-m -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_3d2fb.dir/CMakeCCompilerABI.c.obj C:\\Users\\Youstar\\AppData\\Local\\Temp\\ccWzvENq.s]
+        ignore line: [GNU assembler version 2.36.1 (arm-none-eabi) using BFD version (GNU Arm Embedded Toolchain 10.3-2021.10) 2.36.1.20210621]
+        ignore line: [COMPILER_PATH=e:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../lib/gcc/arm-none-eabi/10.3.1/]
+        ignore line: [e:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../lib/gcc/]
+        ignore line: [e:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/]
+        ignore line: [LIBRARY_PATH=e:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/]
+        ignore line: [e:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/]
+        ignore line: [e:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../arm-none-eabi/lib/thumb/v6-m/nofp/]
+        ignore line: [e:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../lib/gcc/arm-none-eabi/10.3.1/]
+        ignore line: [e:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../lib/gcc/]
+        ignore line: [e:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/]
+        ignore line: [e:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../arm-none-eabi/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-mcpu=cortex-m0' '-mthumb' '-ffunction-sections' '-fdata-sections' '-Wall' '-O0' '-gdwarf-2' '-std=gnu11' '-v' '-o' 'CMakeFiles/cmTC_3d2fb.dir/CMakeCCompilerABI.c.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m'\x0d]
+        ignore line: [[2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && E:\\env-windows-v2.0.0\\env-windows\\tools\\gnu_gcc\\arm_gcc\\mingw\\bin\\arm-none-eabi-gcc.exe -mcpu=cortex-m0 -mthumb -ffunction-sections -fdata-sections -Wall -O0 -gdwarf-2 -mcpu=cortex-m0 -mthumb -ffunction-sections -fdata-sections -nostartfiles -Wl --gc-sections -Map=rtthread.map -cref -u Reset_Handler -T E:/1_qianrushi_car/LPC1114_RTThread/link.lds -Wl --gc-sections --print-memory-usage -v CMakeFiles/cmTC_3d2fb.dir/CMakeCCompilerABI.c.obj -o cmTC_3d2fb   && cd ."]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=E:\\env-windows-v2.0.0\\env-windows\\tools\\gnu_gcc\\arm_gcc\\mingw\\bin\\arm-none-eabi-gcc.exe]
+        ignore line: [COLLECT_LTO_WRAPPER=e:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../lib/gcc/arm-none-eabi/10.3.1/lto-wrapper.exe]
+        ignore line: [Target: arm-none-eabi]
+        ignore line: [Configured with: /mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/src/gcc/configure --build=x86_64-linux-gnu --host=i686-w64-mingw32 --target=arm-none-eabi --prefix=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw --libexecdir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/lib --infodir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/share/doc/gcc-arm-none-eabi/info --mandir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/share/doc/gcc-arm-none-eabi/man --htmldir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/share/doc/gcc-arm-none-eabi/html --pdfdir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/share/doc/gcc-arm-none-eabi/pdf --enable-languages=c,c++ --enable-mingw-wildcard --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --disable-tls --with-gnu-as --with-gnu-ld --with-headers=yes --with-newlib --with-python-dir=share/gcc-arm-none-eabi --with-sysroot=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/arm-none-eabi --with-libiconv-prefix=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-mingw/host-libs/usr --with-gmp=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-mingw/host-libs/usr --with-mpfr=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-mingw/host-libs/usr --with-mpc=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-mingw/host-libs/usr --with-isl=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-mingw/host-libs/usr --with-libelf=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-mingw/host-libs/usr --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --with-pkgversion='GNU Arm Embedded Toolchain 10.3-2021.10' --with-multilib-list=rmprofile,aprofile]
+        ignore line: [Thread model: single]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 10.3.1 20210824 (release) (GNU Arm Embedded Toolchain 10.3-2021.10) ]
+        ignore line: [COMPILER_PATH=e:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../lib/gcc/arm-none-eabi/10.3.1/]
+        ignore line: [e:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../lib/gcc/]
+        ignore line: [e:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/]
+        ignore line: [LIBRARY_PATH=e:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/]
+        ignore line: [e:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/]
+        ignore line: [e:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../arm-none-eabi/lib/thumb/v6-m/nofp/]
+        ignore line: [e:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../lib/gcc/arm-none-eabi/10.3.1/]
+        ignore line: [e:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../lib/gcc/]
+        ignore line: [e:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/]
+        ignore line: [e:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../arm-none-eabi/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-Wall' '-O0' '-gdwarf-2' '-mcpu=cortex-m0' '-mthumb' '-ffunction-sections' '-fdata-sections' '-nostartfiles' '-T' 'E:/1_qianrushi_car/LPC1114_RTThread/link.lds' '-v' '-o' 'cmTC_3d2fb' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m']
+        link line: [ e:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../lib/gcc/arm-none-eabi/10.3.1/collect2.exe -plugin e:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../lib/gcc/arm-none-eabi/10.3.1/liblto_plugin-0.dll -plugin-opt=e:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../lib/gcc/arm-none-eabi/10.3.1/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\Youstar\\AppData\\Local\\Temp\\ccCvm3Pv.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lg -plugin-opt=-pass-through=-lc --sysroot=e:\\env-windows-v2.0.0\\env-windows\\tools\\gnu_gcc\\arm_gcc\\mingw\\bin\\../arm-none-eabi -X -o cmTC_3d2fb -Le:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp -Le:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp -Le:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../arm-none-eabi/lib/thumb/v6-m/nofp -Le:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../lib/gcc/arm-none-eabi/10.3.1 -Le:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../lib/gcc -Le:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib -Le:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../arm-none-eabi/lib --gc-sections -Map=rtthread.map -cref -u Reset_Handler --gc-sections --print-memory-usage CMakeFiles/cmTC_3d2fb.dir/CMakeCCompilerABI.c.obj --start-group -lgcc -lg -lc --end-group -T E:/1_qianrushi_car/LPC1114_RTThread/link.lds]
+          arg [e:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../lib/gcc/arm-none-eabi/10.3.1/collect2.exe] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [e:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../lib/gcc/arm-none-eabi/10.3.1/liblto_plugin-0.dll] ==> ignore
+          arg [-plugin-opt=e:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../lib/gcc/arm-none-eabi/10.3.1/lto-wrapper.exe] ==> ignore
+          arg [-plugin-opt=-fresolution=C:\\Users\\Youstar\\AppData\\Local\\Temp\\ccCvm3Pv.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lg] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [--sysroot=e:\\env-windows-v2.0.0\\env-windows\\tools\\gnu_gcc\\arm_gcc\\mingw\\bin\\../arm-none-eabi] ==> ignore
+          arg [-X] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_3d2fb] ==> ignore
+          arg [-Le:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp] ==> dir [e:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp]
+          arg [-Le:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp] ==> dir [e:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp]
+          arg [-Le:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../arm-none-eabi/lib/thumb/v6-m/nofp] ==> dir [e:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../arm-none-eabi/lib/thumb/v6-m/nofp]
+          arg [-Le:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../lib/gcc/arm-none-eabi/10.3.1] ==> dir [e:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../lib/gcc/arm-none-eabi/10.3.1]
+          arg [-Le:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../lib/gcc] ==> dir [e:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../lib/gcc]
+          arg [-Le:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib] ==> dir [e:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib]
+          arg [-Le:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../arm-none-eabi/lib] ==> dir [e:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../arm-none-eabi/lib]
+          arg [--gc-sections] ==> ignore
+          arg [-Map=rtthread.map] ==> ignore
+          arg [-cref] ==> ignore
+          arg [-u] ==> ignore
+          arg [Reset_Handler] ==> ignore
+          arg [--gc-sections] ==> ignore
+          arg [--print-memory-usage] ==> ignore
+          arg [CMakeFiles/cmTC_3d2fb.dir/CMakeCCompilerABI.c.obj] ==> ignore
+          arg [--start-group] ==> ignore
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lg] ==> lib [g]
+          arg [-lc] ==> lib [c]
+          arg [--end-group] ==> ignore
+          arg [-T] ==> ignore
+          arg [E:/1_qianrushi_car/LPC1114_RTThread/link.lds] ==> ignore
+        ignore line: [e:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/ld.exe:E:/1_qianrushi_car/LPC1114_RTThread/link.lds:50: warning: memory region `CODE' not declared]
+        ignore line: [e:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/ld.exe:E:/1_qianrushi_car/LPC1114_RTThread/link.lds:77: warning: memory region `DATA' not declared]
+        ignore line: [e:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/ld.exe: warning: cannot find entry symbol Reset_Handler]
+        ignore line: [ defaulting to 00000000]
+        ignore line: [Memory region         Used Size  Region Size  %age Used]
+        ignore line: [             RAM:          0 GB         8 KB      0.00%]
+        ignore line: [           FLASH:          0 GB        32 KB      0.00%\x0d]
+        ignore line: [            CODE:          0 GB 4294967295 B      0.00%\x0d]
+        ignore line: [            DATA:         256 B 4294967295 B      0.00%\x0d]
+        ignore line: [COLLECT_GCC_OPTIONS='-Wall' '-O0' '-gdwarf-2' '-mcpu=cortex-m0' '-mthumb' '-ffunction-sections' '-fdata-sections' '-nostartfiles' '-T' 'E:/1_qianrushi_car/LPC1114_RTThread/link.lds' '-v' '-o' 'cmTC_3d2fb' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m'\x0d]
+        ignore line: []
+        ignore line: []
+        collapse library dir [e:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp] ==> [E:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp]
+        collapse library dir [e:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp] ==> [E:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/arm-none-eabi/lib/thumb/v6-m/nofp]
+        collapse library dir [e:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../arm-none-eabi/lib/thumb/v6-m/nofp] ==> [E:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/arm-none-eabi/lib/thumb/v6-m/nofp]
+        collapse library dir [e:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../lib/gcc/arm-none-eabi/10.3.1] ==> [E:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/lib/gcc/arm-none-eabi/10.3.1]
+        collapse library dir [e:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../lib/gcc] ==> [E:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/lib/gcc]
+        collapse library dir [e:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib] ==> [E:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/arm-none-eabi/lib]
+        collapse library dir [e:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../arm-none-eabi/lib] ==> [E:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/arm-none-eabi/lib]
+        implicit libs: [gcc;g;c]
+        implicit objs: []
+        implicit dirs: [E:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp;E:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/arm-none-eabi/lib/thumb/v6-m/nofp;E:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/lib/gcc/arm-none-eabi/10.3.1;E:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/lib/gcc;E:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/arm-none-eabi/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "E:/Clion/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:67 (try_compile)"
+      - "E:/Clion/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:27 (PROJECT)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "E:/1_qianrushi_car/LPC1114_RTThread/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-3hu9po"
+      binary: "E:/1_qianrushi_car/LPC1114_RTThread/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-3hu9po"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -mcpu=cortex-m0 -mthumb -ffunction-sections -fdata-sections -Wall -O0 -gdwarf-2"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: " -mcpu=cortex-m0 -mthumb -ffunction-sections -fdata-sections -nostartfiles -Wl,--gc-sections,-Map=rtthread.map,-cref,-u,Reset_Handler -T E:/1_qianrushi_car/LPC1114_RTThread/link.lds -Wl,--gc-sections,--print-memory-usage"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/1_qianrushi_car/LPC1114_RTThread/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-3hu9po'
+        
+        Run Build Command(s): "E:/Clion/CLion 2023.2.2/bin/ninja/win/x64/ninja.exe" -v cmTC_00fba
+        [1/2] E:\\env-windows-v2.0.0\\env-windows\\tools\\gnu_gcc\\arm_gcc\\mingw\\bin\\arm-none-eabi-g++.exe   -mcpu=cortex-m0 -mthumb -ffunction-sections -fdata-sections -Wall -O0 -gdwarf-2  -std=gnu++17 -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_00fba.dir/CMakeCXXCompilerABI.cpp.obj -c "E:/Clion/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCXXCompilerABI.cpp"
+        Using built-in specs.
+        COLLECT_GCC=E:\\env-windows-v2.0.0\\env-windows\\tools\\gnu_gcc\\arm_gcc\\mingw\\bin\\arm-none-eabi-g++.exe
+        Target: arm-none-eabi
+        Configured with: /mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/src/gcc/configure --build=x86_64-linux-gnu --host=i686-w64-mingw32 --target=arm-none-eabi --prefix=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw --libexecdir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/lib --infodir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/share/doc/gcc-arm-none-eabi/info --mandir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/share/doc/gcc-arm-none-eabi/man --htmldir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/share/doc/gcc-arm-none-eabi/html --pdfdir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/share/doc/gcc-arm-none-eabi/pdf --enable-languages=c,c++ --enable-mingw-wildcard --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --disable-tls --with-gnu-as --with-gnu-ld --with-headers=yes --with-newlib --with-python-dir=share/gcc-arm-none-eabi --with-sysroot=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/arm-none-eabi --with-libiconv-prefix=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-mingw/host-libs/usr --with-gmp=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-mingw/host-libs/usr --with-mpfr=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-mingw/host-libs/usr --with-mpc=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-mingw/host-libs/usr --with-isl=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-mingw/host-libs/usr --with-libelf=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-mingw/host-libs/usr --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --with-pkgversion='GNU Arm Embedded Toolchain 10.3-2021.10' --with-multilib-list=rmprofile,aprofile
+        Thread model: single
+        Supported LTO compression algorithms: zlib
+        gcc version 10.3.1 20210824 (release) (GNU Arm Embedded Toolchain 10.3-2021.10) 
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-mcpu=cortex-m0' '-mthumb' '-ffunction-sections' '-fdata-sections' '-Wall' '-O0' '-gdwarf-2' '-std=gnu++17' '-v' '-o' 'CMakeFiles/cmTC_00fba.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m'
+         e:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../lib/gcc/arm-none-eabi/10.3.1/cc1plus.exe -quiet -v -imultilib thumb/v6-m/nofp -iprefix e:\\env-windows-v2.0.0\\env-windows\\tools\\gnu_gcc\\arm_gcc\\mingw\\bin\\../lib/gcc/arm-none-eabi/10.3.1/ -isysroot e:\\env-windows-v2.0.0\\env-windows\\tools\\gnu_gcc\\arm_gcc\\mingw\\bin\\../arm-none-eabi -D__USES_INITFINI__ E:/Clion/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mcpu=cortex-m0 -mthumb -mfloat-abi=soft -mlibarch=armv6s-m -march=armv6s-m -auxbase-strip CMakeFiles/cmTC_00fba.dir/CMakeCXXCompilerABI.cpp.obj -gdwarf-2 -O0 -Wall -std=gnu++17 -version -fdiagnostics-color=always -ffunction-sections -fdata-sections -o C:\\Users\\Youstar\\AppData\\Local\\Temp\\cc62TvSP.s
+        GNU C++17 (GNU Arm Embedded Toolchain 10.3-2021.10) version 10.3.1 20210824 (release) (arm-none-eabi)
+        	compiled by GNU C version 7.3-win32 20180312, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring duplicate directory "e:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/lib/gcc/../../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1"
+        ignoring duplicate directory "e:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/lib/gcc/../../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi/thumb/v6-m/nofp"
+        ignoring duplicate directory "e:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/lib/gcc/../../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward"
+        ignoring duplicate directory "e:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/lib/gcc/../../lib/gcc/arm-none-eabi/10.3.1/include"
+        ignoring nonexistent directory "e:\\env-windows-v2.0.0\\env-windows\\tools\\gnu_gcc\\arm_gcc\\mingw\\bin\\../arm-none-eabi/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/lib/gcc/arm-none-eabi/10.3.1/../../../../include"
+        ignoring duplicate directory "e:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/lib/gcc/../../lib/gcc/arm-none-eabi/10.3.1/include-fixed"
+        ignoring duplicate directory "e:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/lib/gcc/../../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include"
+        ignoring nonexistent directory "e:\\env-windows-v2.0.0\\env-windows\\tools\\gnu_gcc\\arm_gcc\\mingw\\bin\\../arm-none-eabi/usr/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         e:\\env-windows-v2.0.0\\env-windows\\tools\\gnu_gcc\\arm_gcc\\mingw\\bin\\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1
+         e:\\env-windows-v2.0.0\\env-windows\\tools\\gnu_gcc\\arm_gcc\\mingw\\bin\\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi/thumb/v6-m/nofp
+         e:\\env-windows-v2.0.0\\env-windows\\tools\\gnu_gcc\\arm_gcc\\mingw\\bin\\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward
+         e:\\env-windows-v2.0.0\\env-windows\\tools\\gnu_gcc\\arm_gcc\\mingw\\bin\\../lib/gcc/arm-none-eabi/10.3.1/include
+         e:\\env-windows-v2.0.0\\env-windows\\tools\\gnu_gcc\\arm_gcc\\mingw\\bin\\../lib/gcc/arm-none-eabi/10.3.1/include-fixed
+         e:\\env-windows-v2.0.0\\env-windows\\tools\\gnu_gcc\\arm_gcc\\mingw\\bin\\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include
+        End of search list.
+        GNU C++17 (GNU Arm Embedded Toolchain 10.3-2021.10) version 10.3.1 20210824 (release) (arm-none-eabi)
+        	compiled by GNU C version 7.3-win32 20180312, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        Compiler executable checksum: f8787892a7c5aa84cea58dce52be7118
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-mcpu=cortex-m0' '-mthumb' '-ffunction-sections' '-fdata-sections' '-Wall' '-O0' '-gdwarf-2' '-std=gnu++17' '-v' '-o' 'CMakeFiles/cmTC_00fba.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m'
+         e:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv6s-m -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_00fba.dir/CMakeCXXCompilerABI.cpp.obj C:\\Users\\Youstar\\AppData\\Local\\Temp\\cc62TvSP.s
+        GNU assembler version 2.36.1 (arm-none-eabi) using BFD version (GNU Arm Embedded Toolchain 10.3-2021.10) 2.36.1.20210621
+        COMPILER_PATH=e:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../lib/gcc/arm-none-eabi/10.3.1/;e:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../lib/gcc/;e:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/
+        LIBRARY_PATH=e:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/;e:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/;e:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../arm-none-eabi/lib/thumb/v6-m/nofp/;e:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../lib/gcc/arm-none-eabi/10.3.1/;e:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../lib/gcc/;e:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/;e:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../arm-none-eabi/lib/
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-mcpu=cortex-m0' '-mthumb' '-ffunction-sections' '-fdata-sections' '-Wall' '-O0' '-gdwarf-2' '-std=gnu++17' '-v' '-o' 'CMakeFiles/cmTC_00fba.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m'\x0d
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && E:\\env-windows-v2.0.0\\env-windows\\tools\\gnu_gcc\\arm_gcc\\mingw\\bin\\arm-none-eabi-g++.exe -mcpu=cortex-m0 -mthumb -ffunction-sections -fdata-sections -Wall -O0 -gdwarf-2 -mcpu=cortex-m0 -mthumb -ffunction-sections -fdata-sections -nostartfiles -Wl,--gc-sections,-Map=rtthread.map,-cref,-u,Reset_Handler -T E:/1_qianrushi_car/LPC1114_RTThread/link.lds -Wl,--gc-sections,--print-memory-usage -v CMakeFiles/cmTC_00fba.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_00fba   && cd ."
+        Using built-in specs.
+        COLLECT_GCC=E:\\env-windows-v2.0.0\\env-windows\\tools\\gnu_gcc\\arm_gcc\\mingw\\bin\\arm-none-eabi-g++.exe
+        COLLECT_LTO_WRAPPER=e:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../lib/gcc/arm-none-eabi/10.3.1/lto-wrapper.exe
+        Target: arm-none-eabi
+        Configured with: /mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/src/gcc/configure --build=x86_64-linux-gnu --host=i686-w64-mingw32 --target=arm-none-eabi --prefix=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw --libexecdir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/lib --infodir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/share/doc/gcc-arm-none-eabi/info --mandir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/share/doc/gcc-arm-none-eabi/man --htmldir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/share/doc/gcc-arm-none-eabi/html --pdfdir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/share/doc/gcc-arm-none-eabi/pdf --enable-languages=c,c++ --enable-mingw-wildcard --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --disable-tls --with-gnu-as --with-gnu-ld --with-headers=yes --with-newlib --with-python-dir=share/gcc-arm-none-eabi --with-sysroot=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/arm-none-eabi --with-libiconv-prefix=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-mingw/host-libs/usr --with-gmp=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-mingw/host-libs/usr --with-mpfr=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-mingw/host-libs/usr --with-mpc=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-mingw/host-libs/usr --with-isl=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-mingw/host-libs/usr --with-libelf=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-mingw/host-libs/usr --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --with-pkgversion='GNU Arm Embedded Toolchain 10.3-2021.10' --with-multilib-list=rmprofile,aprofile
+        Thread model: single
+        Supported LTO compression algorithms: zlib
+        gcc version 10.3.1 20210824 (release) (GNU Arm Embedded Toolchain 10.3-2021.10) 
+        COMPILER_PATH=e:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../lib/gcc/arm-none-eabi/10.3.1/;e:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../lib/gcc/;e:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/
+        LIBRARY_PATH=e:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/;e:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/;e:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../arm-none-eabi/lib/thumb/v6-m/nofp/;e:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../lib/gcc/arm-none-eabi/10.3.1/;e:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../lib/gcc/;e:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/;e:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../arm-none-eabi/lib/
+        COLLECT_GCC_OPTIONS='-Wall' '-O0' '-gdwarf-2' '-mcpu=cortex-m0' '-mthumb' '-ffunction-sections' '-fdata-sections' '-nostartfiles' '-T' 'E:/1_qianrushi_car/LPC1114_RTThread/link.lds' '-v' '-o' 'cmTC_00fba' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m'
+         e:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../lib/gcc/arm-none-eabi/10.3.1/collect2.exe -plugin e:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../lib/gcc/arm-none-eabi/10.3.1/liblto_plugin-0.dll -plugin-opt=e:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../lib/gcc/arm-none-eabi/10.3.1/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\Youstar\\AppData\\Local\\Temp\\cce1sJSU.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lg -plugin-opt=-pass-through=-lc --sysroot=e:\\env-windows-v2.0.0\\env-windows\\tools\\gnu_gcc\\arm_gcc\\mingw\\bin\\../arm-none-eabi -X -o cmTC_00fba -Le:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp -Le:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp -Le:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../arm-none-eabi/lib/thumb/v6-m/nofp -Le:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../lib/gcc/arm-none-eabi/10.3.1 -Le:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../lib/gcc -Le:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib -Le:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../arm-none-eabi/lib --gc-sections -Map=rtthread.map -cref -u Reset_Handler --gc-sections --print-memory-usage CMakeFiles/cmTC_00fba.dir/CMakeCXXCompilerABI.cpp.obj -lstdc++ -lm --start-group -lgcc -lg -lc --end-group -T E:/1_qianrushi_car/LPC1114_RTThread/link.lds
+        e:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/ld.exe:E:/1_qianrushi_car/LPC1114_RTThread/link.lds:50: warning: memory region `CODE' not declared
+        e:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/ld.exe:E:/1_qianrushi_car/LPC1114_RTThread/link.lds:77: warning: memory region `DATA' not declared
+        e:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/ld.exe: warning: cannot find entry symbol Reset_Handler; defaulting to 00000000
+        Memory region         Used Size  Region Size  %age Used
+                     RAM:          0 GB         8 KB      0.00%\x0d
+                   FLASH:          0 GB        32 KB      0.00%\x0d
+                    CODE:          0 GB 4294967295 B      0.00%\x0d
+                    DATA:         256 B 4294967295 B      0.00%\x0d
+        COLLECT_GCC_OPTIONS='-Wall' '-O0' '-gdwarf-2' '-mcpu=cortex-m0' '-mthumb' '-ffunction-sections' '-fdata-sections' '-nostartfiles' '-T' 'E:/1_qianrushi_car/LPC1114_RTThread/link.lds' '-v' '-o' 'cmTC_00fba' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m'\x0d
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/Clion/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:137 (message)"
+      - "E:/Clion/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:27 (PROJECT)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [e:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1]
+          add: [e:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi/thumb/v6-m/nofp]
+          add: [e:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward]
+          add: [e:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../lib/gcc/arm-none-eabi/10.3.1/include]
+          add: [e:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../lib/gcc/arm-none-eabi/10.3.1/include-fixed]
+          add: [e:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include]
+        end of search list found
+        collapse include dir [e:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1] ==> [E:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/arm-none-eabi/include/c++/10.3.1]
+        collapse include dir [e:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi/thumb/v6-m/nofp] ==> [E:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/arm-none-eabi/include/c++/10.3.1/arm-none-eabi/thumb/v6-m/nofp]
+        collapse include dir [e:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward] ==> [E:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/arm-none-eabi/include/c++/10.3.1/backward]
+        collapse include dir [e:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../lib/gcc/arm-none-eabi/10.3.1/include] ==> [E:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/lib/gcc/arm-none-eabi/10.3.1/include]
+        collapse include dir [e:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../lib/gcc/arm-none-eabi/10.3.1/include-fixed] ==> [E:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/lib/gcc/arm-none-eabi/10.3.1/include-fixed]
+        collapse include dir [e:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include] ==> [E:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/arm-none-eabi/include]
+        implicit include dirs: [E:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/arm-none-eabi/include/c++/10.3.1;E:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/arm-none-eabi/include/c++/10.3.1/arm-none-eabi/thumb/v6-m/nofp;E:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/arm-none-eabi/include/c++/10.3.1/backward;E:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/lib/gcc/arm-none-eabi/10.3.1/include;E:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/lib/gcc/arm-none-eabi/10.3.1/include-fixed;E:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/arm-none-eabi/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/Clion/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:173 (message)"
+      - "E:/Clion/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:27 (PROJECT)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
+        ignore line: [Change Dir: 'E:/1_qianrushi_car/LPC1114_RTThread/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-3hu9po']
+        ignore line: []
+        ignore line: [Run Build Command(s): "E:/Clion/CLion 2023.2.2/bin/ninja/win/x64/ninja.exe" -v cmTC_00fba]
+        ignore line: [[1/2] E:\\env-windows-v2.0.0\\env-windows\\tools\\gnu_gcc\\arm_gcc\\mingw\\bin\\arm-none-eabi-g++.exe   -mcpu=cortex-m0 -mthumb -ffunction-sections -fdata-sections -Wall -O0 -gdwarf-2  -std=gnu++17 -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_00fba.dir/CMakeCXXCompilerABI.cpp.obj -c "E:/Clion/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCXXCompilerABI.cpp"]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=E:\\env-windows-v2.0.0\\env-windows\\tools\\gnu_gcc\\arm_gcc\\mingw\\bin\\arm-none-eabi-g++.exe]
+        ignore line: [Target: arm-none-eabi]
+        ignore line: [Configured with: /mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/src/gcc/configure --build=x86_64-linux-gnu --host=i686-w64-mingw32 --target=arm-none-eabi --prefix=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw --libexecdir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/lib --infodir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/share/doc/gcc-arm-none-eabi/info --mandir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/share/doc/gcc-arm-none-eabi/man --htmldir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/share/doc/gcc-arm-none-eabi/html --pdfdir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/share/doc/gcc-arm-none-eabi/pdf --enable-languages=c,c++ --enable-mingw-wildcard --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --disable-tls --with-gnu-as --with-gnu-ld --with-headers=yes --with-newlib --with-python-dir=share/gcc-arm-none-eabi --with-sysroot=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/arm-none-eabi --with-libiconv-prefix=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-mingw/host-libs/usr --with-gmp=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-mingw/host-libs/usr --with-mpfr=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-mingw/host-libs/usr --with-mpc=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-mingw/host-libs/usr --with-isl=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-mingw/host-libs/usr --with-libelf=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-mingw/host-libs/usr --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --with-pkgversion='GNU Arm Embedded Toolchain 10.3-2021.10' --with-multilib-list=rmprofile,aprofile]
+        ignore line: [Thread model: single]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 10.3.1 20210824 (release) (GNU Arm Embedded Toolchain 10.3-2021.10) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-mcpu=cortex-m0' '-mthumb' '-ffunction-sections' '-fdata-sections' '-Wall' '-O0' '-gdwarf-2' '-std=gnu++17' '-v' '-o' 'CMakeFiles/cmTC_00fba.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m']
+        ignore line: [ e:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../lib/gcc/arm-none-eabi/10.3.1/cc1plus.exe -quiet -v -imultilib thumb/v6-m/nofp -iprefix e:\\env-windows-v2.0.0\\env-windows\\tools\\gnu_gcc\\arm_gcc\\mingw\\bin\\../lib/gcc/arm-none-eabi/10.3.1/ -isysroot e:\\env-windows-v2.0.0\\env-windows\\tools\\gnu_gcc\\arm_gcc\\mingw\\bin\\../arm-none-eabi -D__USES_INITFINI__ E:/Clion/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mcpu=cortex-m0 -mthumb -mfloat-abi=soft -mlibarch=armv6s-m -march=armv6s-m -auxbase-strip CMakeFiles/cmTC_00fba.dir/CMakeCXXCompilerABI.cpp.obj -gdwarf-2 -O0 -Wall -std=gnu++17 -version -fdiagnostics-color=always -ffunction-sections -fdata-sections -o C:\\Users\\Youstar\\AppData\\Local\\Temp\\cc62TvSP.s]
+        ignore line: [GNU C++17 (GNU Arm Embedded Toolchain 10.3-2021.10) version 10.3.1 20210824 (release) (arm-none-eabi)]
+        ignore line: [	compiled by GNU C version 7.3-win32 20180312  GMP version 6.1.0  MPFR version 3.1.4  MPC version 1.0.3  isl version isl-0.18-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring duplicate directory "e:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/lib/gcc/../../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1"]
+        ignore line: [ignoring duplicate directory "e:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/lib/gcc/../../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi/thumb/v6-m/nofp"]
+        ignore line: [ignoring duplicate directory "e:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/lib/gcc/../../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward"]
+        ignore line: [ignoring duplicate directory "e:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/lib/gcc/../../lib/gcc/arm-none-eabi/10.3.1/include"]
+        ignore line: [ignoring nonexistent directory "e:\\env-windows-v2.0.0\\env-windows\\tools\\gnu_gcc\\arm_gcc\\mingw\\bin\\../arm-none-eabi/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/lib/gcc/arm-none-eabi/10.3.1/../../../../include"]
+        ignore line: [ignoring duplicate directory "e:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/lib/gcc/../../lib/gcc/arm-none-eabi/10.3.1/include-fixed"]
+        ignore line: [ignoring duplicate directory "e:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/lib/gcc/../../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include"]
+        ignore line: [ignoring nonexistent directory "e:\\env-windows-v2.0.0\\env-windows\\tools\\gnu_gcc\\arm_gcc\\mingw\\bin\\../arm-none-eabi/usr/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ e:\\env-windows-v2.0.0\\env-windows\\tools\\gnu_gcc\\arm_gcc\\mingw\\bin\\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1]
+        ignore line: [ e:\\env-windows-v2.0.0\\env-windows\\tools\\gnu_gcc\\arm_gcc\\mingw\\bin\\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi/thumb/v6-m/nofp]
+        ignore line: [ e:\\env-windows-v2.0.0\\env-windows\\tools\\gnu_gcc\\arm_gcc\\mingw\\bin\\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward]
+        ignore line: [ e:\\env-windows-v2.0.0\\env-windows\\tools\\gnu_gcc\\arm_gcc\\mingw\\bin\\../lib/gcc/arm-none-eabi/10.3.1/include]
+        ignore line: [ e:\\env-windows-v2.0.0\\env-windows\\tools\\gnu_gcc\\arm_gcc\\mingw\\bin\\../lib/gcc/arm-none-eabi/10.3.1/include-fixed]
+        ignore line: [ e:\\env-windows-v2.0.0\\env-windows\\tools\\gnu_gcc\\arm_gcc\\mingw\\bin\\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include]
+        ignore line: [End of search list.]
+        ignore line: [GNU C++17 (GNU Arm Embedded Toolchain 10.3-2021.10) version 10.3.1 20210824 (release) (arm-none-eabi)]
+        ignore line: [	compiled by GNU C version 7.3-win32 20180312  GMP version 6.1.0  MPFR version 3.1.4  MPC version 1.0.3  isl version isl-0.18-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [Compiler executable checksum: f8787892a7c5aa84cea58dce52be7118]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-mcpu=cortex-m0' '-mthumb' '-ffunction-sections' '-fdata-sections' '-Wall' '-O0' '-gdwarf-2' '-std=gnu++17' '-v' '-o' 'CMakeFiles/cmTC_00fba.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m']
+        ignore line: [ e:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv6s-m -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_00fba.dir/CMakeCXXCompilerABI.cpp.obj C:\\Users\\Youstar\\AppData\\Local\\Temp\\cc62TvSP.s]
+        ignore line: [GNU assembler version 2.36.1 (arm-none-eabi) using BFD version (GNU Arm Embedded Toolchain 10.3-2021.10) 2.36.1.20210621]
+        ignore line: [COMPILER_PATH=e:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../lib/gcc/arm-none-eabi/10.3.1/]
+        ignore line: [e:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../lib/gcc/]
+        ignore line: [e:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/]
+        ignore line: [LIBRARY_PATH=e:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/]
+        ignore line: [e:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/]
+        ignore line: [e:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../arm-none-eabi/lib/thumb/v6-m/nofp/]
+        ignore line: [e:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../lib/gcc/arm-none-eabi/10.3.1/]
+        ignore line: [e:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../lib/gcc/]
+        ignore line: [e:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/]
+        ignore line: [e:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../arm-none-eabi/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-mcpu=cortex-m0' '-mthumb' '-ffunction-sections' '-fdata-sections' '-Wall' '-O0' '-gdwarf-2' '-std=gnu++17' '-v' '-o' 'CMakeFiles/cmTC_00fba.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m'\x0d]
+        ignore line: [[2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && E:\\env-windows-v2.0.0\\env-windows\\tools\\gnu_gcc\\arm_gcc\\mingw\\bin\\arm-none-eabi-g++.exe -mcpu=cortex-m0 -mthumb -ffunction-sections -fdata-sections -Wall -O0 -gdwarf-2 -mcpu=cortex-m0 -mthumb -ffunction-sections -fdata-sections -nostartfiles -Wl --gc-sections -Map=rtthread.map -cref -u Reset_Handler -T E:/1_qianrushi_car/LPC1114_RTThread/link.lds -Wl --gc-sections --print-memory-usage -v CMakeFiles/cmTC_00fba.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_00fba   && cd ."]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=E:\\env-windows-v2.0.0\\env-windows\\tools\\gnu_gcc\\arm_gcc\\mingw\\bin\\arm-none-eabi-g++.exe]
+        ignore line: [COLLECT_LTO_WRAPPER=e:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../lib/gcc/arm-none-eabi/10.3.1/lto-wrapper.exe]
+        ignore line: [Target: arm-none-eabi]
+        ignore line: [Configured with: /mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/src/gcc/configure --build=x86_64-linux-gnu --host=i686-w64-mingw32 --target=arm-none-eabi --prefix=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw --libexecdir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/lib --infodir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/share/doc/gcc-arm-none-eabi/info --mandir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/share/doc/gcc-arm-none-eabi/man --htmldir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/share/doc/gcc-arm-none-eabi/html --pdfdir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/share/doc/gcc-arm-none-eabi/pdf --enable-languages=c,c++ --enable-mingw-wildcard --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --disable-tls --with-gnu-as --with-gnu-ld --with-headers=yes --with-newlib --with-python-dir=share/gcc-arm-none-eabi --with-sysroot=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/arm-none-eabi --with-libiconv-prefix=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-mingw/host-libs/usr --with-gmp=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-mingw/host-libs/usr --with-mpfr=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-mingw/host-libs/usr --with-mpc=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-mingw/host-libs/usr --with-isl=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-mingw/host-libs/usr --with-libelf=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-mingw/host-libs/usr --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --with-pkgversion='GNU Arm Embedded Toolchain 10.3-2021.10' --with-multilib-list=rmprofile,aprofile]
+        ignore line: [Thread model: single]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 10.3.1 20210824 (release) (GNU Arm Embedded Toolchain 10.3-2021.10) ]
+        ignore line: [COMPILER_PATH=e:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../lib/gcc/arm-none-eabi/10.3.1/]
+        ignore line: [e:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../lib/gcc/]
+        ignore line: [e:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/]
+        ignore line: [LIBRARY_PATH=e:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/]
+        ignore line: [e:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/]
+        ignore line: [e:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../arm-none-eabi/lib/thumb/v6-m/nofp/]
+        ignore line: [e:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../lib/gcc/arm-none-eabi/10.3.1/]
+        ignore line: [e:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../lib/gcc/]
+        ignore line: [e:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/]
+        ignore line: [e:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../arm-none-eabi/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-Wall' '-O0' '-gdwarf-2' '-mcpu=cortex-m0' '-mthumb' '-ffunction-sections' '-fdata-sections' '-nostartfiles' '-T' 'E:/1_qianrushi_car/LPC1114_RTThread/link.lds' '-v' '-o' 'cmTC_00fba' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m']
+        link line: [ e:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../lib/gcc/arm-none-eabi/10.3.1/collect2.exe -plugin e:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../lib/gcc/arm-none-eabi/10.3.1/liblto_plugin-0.dll -plugin-opt=e:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../lib/gcc/arm-none-eabi/10.3.1/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\Youstar\\AppData\\Local\\Temp\\cce1sJSU.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lg -plugin-opt=-pass-through=-lc --sysroot=e:\\env-windows-v2.0.0\\env-windows\\tools\\gnu_gcc\\arm_gcc\\mingw\\bin\\../arm-none-eabi -X -o cmTC_00fba -Le:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp -Le:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp -Le:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../arm-none-eabi/lib/thumb/v6-m/nofp -Le:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../lib/gcc/arm-none-eabi/10.3.1 -Le:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../lib/gcc -Le:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib -Le:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../arm-none-eabi/lib --gc-sections -Map=rtthread.map -cref -u Reset_Handler --gc-sections --print-memory-usage CMakeFiles/cmTC_00fba.dir/CMakeCXXCompilerABI.cpp.obj -lstdc++ -lm --start-group -lgcc -lg -lc --end-group -T E:/1_qianrushi_car/LPC1114_RTThread/link.lds]
+          arg [e:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../lib/gcc/arm-none-eabi/10.3.1/collect2.exe] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [e:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../lib/gcc/arm-none-eabi/10.3.1/liblto_plugin-0.dll] ==> ignore
+          arg [-plugin-opt=e:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../lib/gcc/arm-none-eabi/10.3.1/lto-wrapper.exe] ==> ignore
+          arg [-plugin-opt=-fresolution=C:\\Users\\Youstar\\AppData\\Local\\Temp\\cce1sJSU.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lg] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [--sysroot=e:\\env-windows-v2.0.0\\env-windows\\tools\\gnu_gcc\\arm_gcc\\mingw\\bin\\../arm-none-eabi] ==> ignore
+          arg [-X] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_00fba] ==> ignore
+          arg [-Le:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp] ==> dir [e:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp]
+          arg [-Le:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp] ==> dir [e:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp]
+          arg [-Le:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../arm-none-eabi/lib/thumb/v6-m/nofp] ==> dir [e:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../arm-none-eabi/lib/thumb/v6-m/nofp]
+          arg [-Le:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../lib/gcc/arm-none-eabi/10.3.1] ==> dir [e:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../lib/gcc/arm-none-eabi/10.3.1]
+          arg [-Le:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../lib/gcc] ==> dir [e:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../lib/gcc]
+          arg [-Le:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib] ==> dir [e:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib]
+          arg [-Le:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../arm-none-eabi/lib] ==> dir [e:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../arm-none-eabi/lib]
+          arg [--gc-sections] ==> ignore
+          arg [-Map=rtthread.map] ==> ignore
+          arg [-cref] ==> ignore
+          arg [-u] ==> ignore
+          arg [Reset_Handler] ==> ignore
+          arg [--gc-sections] ==> ignore
+          arg [--print-memory-usage] ==> ignore
+          arg [CMakeFiles/cmTC_00fba.dir/CMakeCXXCompilerABI.cpp.obj] ==> ignore
+          arg [-lstdc++] ==> lib [stdc++]
+          arg [-lm] ==> lib [m]
+          arg [--start-group] ==> ignore
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lg] ==> lib [g]
+          arg [-lc] ==> lib [c]
+          arg [--end-group] ==> ignore
+          arg [-T] ==> ignore
+          arg [E:/1_qianrushi_car/LPC1114_RTThread/link.lds] ==> ignore
+        ignore line: [e:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/ld.exe:E:/1_qianrushi_car/LPC1114_RTThread/link.lds:50: warning: memory region `CODE' not declared]
+        ignore line: [e:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/ld.exe:E:/1_qianrushi_car/LPC1114_RTThread/link.lds:77: warning: memory region `DATA' not declared]
+        ignore line: [e:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/ld.exe: warning: cannot find entry symbol Reset_Handler]
+        ignore line: [ defaulting to 00000000]
+        ignore line: [Memory region         Used Size  Region Size  %age Used]
+        ignore line: [             RAM:          0 GB         8 KB      0.00%\x0d]
+        ignore line: [           FLASH:          0 GB        32 KB      0.00%\x0d]
+        ignore line: [            CODE:          0 GB 4294967295 B      0.00%\x0d]
+        ignore line: [            DATA:         256 B 4294967295 B      0.00%\x0d]
+        ignore line: [COLLECT_GCC_OPTIONS='-Wall' '-O0' '-gdwarf-2' '-mcpu=cortex-m0' '-mthumb' '-ffunction-sections' '-fdata-sections' '-nostartfiles' '-T' 'E:/1_qianrushi_car/LPC1114_RTThread/link.lds' '-v' '-o' 'cmTC_00fba' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m'\x0d]
+        ignore line: []
+        ignore line: []
+        collapse library dir [e:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp] ==> [E:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp]
+        collapse library dir [e:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp] ==> [E:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/arm-none-eabi/lib/thumb/v6-m/nofp]
+        collapse library dir [e:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../arm-none-eabi/lib/thumb/v6-m/nofp] ==> [E:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/arm-none-eabi/lib/thumb/v6-m/nofp]
+        collapse library dir [e:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../lib/gcc/arm-none-eabi/10.3.1] ==> [E:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/lib/gcc/arm-none-eabi/10.3.1]
+        collapse library dir [e:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../lib/gcc] ==> [E:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/lib/gcc]
+        collapse library dir [e:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib] ==> [E:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/arm-none-eabi/lib]
+        collapse library dir [e:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/../arm-none-eabi/lib] ==> [E:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/arm-none-eabi/lib]
+        implicit libs: [stdc++;m;gcc;g;c]
+        implicit objs: []
+        implicit dirs: [E:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp;E:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/arm-none-eabi/lib/thumb/v6-m/nofp;E:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/lib/gcc/arm-none-eabi/10.3.1;E:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/lib/gcc;E:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/arm-none-eabi/lib]
+        implicit fwks: []
+      
+      
+...
