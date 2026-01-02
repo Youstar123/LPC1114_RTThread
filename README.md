@@ -23,8 +23,6 @@
 | **包管理与环境配置** | RT-Thread Env 工具（Windows 版本：env-windows-v2.0.0）     |
 
 > **注**：项目采用 CMake 构建系统，确保跨平台兼容性；通过 `.gdbinit` 与 OpenOCD 集成，支持 CLion 内一键调试。
->
-> 目前 scons 支持生成 cmake 配置文件，可以使用 CLion 进行 C板 的程序开发，推荐同学们尝试。详细步骤可参见：[在 Clion 中调试 rt-thread 工程](https://club.rt-thread.org/ask/article/2840.html)
 
 ## 使用说明
 
