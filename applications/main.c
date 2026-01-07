@@ -10,6 +10,7 @@
 
 #include <rtthread.h>
 #include <rthw.h>
+#include "led.h"
 
 /* for Z111xP board (LED is connected to PIO3_5, low=ON) */
 #define IOCON_PIO3_5    HWREG32(0x40044048)
@@ -54,9 +55,11 @@ static void led_demo(void)
 int main(int argc, char **argv)
 {
     rt_kprintf("Hello, world!\n");
+    LED_Init();
+    //led_demo();
+    while (1) {
+        LED_Toggle();
+        rt_thread_mdelay(1000);
+    }
 
-    led_demo();
-
-    /* NOTREACHED */
-    return 0;
 }

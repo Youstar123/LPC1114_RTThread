@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+E:/1_qianrushi_car/2/LPC1114_RTThread/driver/startup_gcc.s
+../rtconfig.h
+E:/1_qianrushi_car/2/LPC1114_RTThread/rtconfig.h
+
+E:/1_qianrushi_car/2/LPC1114_RTThread/rtconfig.h
+

@@ -1,4 +1,4 @@
-# Install script for directory: E:/1_qianrushi_car/LPC1114_RTThread
+# Install script for directory: E:/1_qianrushi_car/2/LPC1114_RTThread
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "E:/1_qianrushi_car/LPC1114_RTThread/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "E:/1_qianrushi_car/2/LPC1114_RTThread/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

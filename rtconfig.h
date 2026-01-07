@@ -315,6 +315,7 @@
 
 /* On-chip Peripheral Drivers */
 
+#define BSP_USING_GPIO
 /* end of On-chip Peripheral Drivers */
 
 /* Onboard Peripheral Drivers */

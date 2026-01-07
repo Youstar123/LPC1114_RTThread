@@ -10,6 +10,7 @@
 
 #ifndef __BOARD_H__
 #define __BOARD_H__
+#include "rtdef.h"
 
 #define CPU_CLOCK       48000000        // Hz
 

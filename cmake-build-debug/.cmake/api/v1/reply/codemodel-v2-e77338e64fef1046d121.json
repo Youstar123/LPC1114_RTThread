@@ -1,0 +1,96 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "rtthread",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "rtt_Drivers::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rtt_Drivers-4ea7fef362061e2a5803.json",
+					"name" : "rtt_Drivers",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rtt_Kernel::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rtt_Kernel-9697e3497968ebc8de9d.json",
+					"name" : "rtt_Kernel",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rtt_klibc::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rtt_klibc-e2f7919fb4d67aa9a9f3.json",
+					"name" : "rtt_klibc",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rtt_libcpu::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rtt_libcpu-fadc70df2521c16e0100.json",
+					"name" : "rtt_libcpu",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rtthread.elf::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rtthread.elf-0fb7e832cf9de33972ea.json",
+					"name" : "rtthread.elf",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "E:/1_qianrushi_car/2/LPC1114_RTThread/cmake-build-debug",
+		"source" : "E:/1_qianrushi_car/2/LPC1114_RTThread"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}
