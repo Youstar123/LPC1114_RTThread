@@ -34,6 +34,7 @@ INCLUDE_DIRECTORIES(
 	driver/drivers
 	driver/modules/led
 	driver/modules/key
+	driver/modules/oled
 	rt-thread/include
 	rt-thread/libcpu/arm/common
 	rt-thread/libcpu/arm/cortex-m0
@@ -48,8 +49,8 @@ ADD_DEFINITIONS(
 
 # Library source files
 SET(RT_APPLICATIONS_SOURCES
-	applications/syscalls.c
 	applications/sysmem.c
+	applications/syscalls.c
 	applications/main.c
 )
 
@@ -57,11 +58,13 @@ SET(RT_DEVICEDRIVERS_SOURCES
 )
 
 SET(RT_DRIVERS_SOURCES
-	driver/modules/key/key.c
+	driver/drivers/i2c.c
 	driver/modules/led/led.c
-	driver/drivers/gpio.c
 	driver/board.c
+	driver/drivers/gpio.c
 	driver/startup_gcc.s
+	driver/modules/key/key.c
+	driver/modules/oled/oled.c
 )
 
 SET(RT_KERNEL_SOURCES

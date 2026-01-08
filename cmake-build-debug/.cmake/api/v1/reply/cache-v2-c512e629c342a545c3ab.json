@@ -195,7 +195,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "e:/1_qianrushi_car/LPC1114_RTThread/cmake-build-debug"
+			"value" : "e:/1_qianrushi_car/3/LPC1114_RTThread/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -683,7 +683,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "E:/1_qianrushi_car/LPC1114_RTThread/cmake-build-debug/CMakeFiles/pkgRedirects"
+			"value" : "E:/1_qianrushi_car/3/LPC1114_RTThread/cmake-build-debug/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -743,7 +743,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "E:/1_qianrushi_car/LPC1114_RTThread"
+			"value" : "E:/1_qianrushi_car/3/LPC1114_RTThread"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -1255,7 +1255,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "E:/1_qianrushi_car/LPC1114_RTThread/cmake-build-debug"
+			"value" : "E:/1_qianrushi_car/3/LPC1114_RTThread/cmake-build-debug"
 		},
 		{
 			"name" : "rtthread_IS_TOP_LEVEL",
@@ -1279,7 +1279,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "E:/1_qianrushi_car/LPC1114_RTThread"
+			"value" : "E:/1_qianrushi_car/3/LPC1114_RTThread"
 		}
 	],
 	"kind" : "cache",

@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-E:/1_qianrushi_car/LPC1114_RTThread/driver/startup_gcc.s
+E:/1_qianrushi_car/3/LPC1114_RTThread/driver/startup_gcc.s
 ../rtconfig.h
-E:/1_qianrushi_car/LPC1114_RTThread/rtconfig.h
+E:/1_qianrushi_car/3/LPC1114_RTThread/rtconfig.h
 
-E:/1_qianrushi_car/LPC1114_RTThread/rtconfig.h
+E:/1_qianrushi_car/3/LPC1114_RTThread/rtconfig.h
 

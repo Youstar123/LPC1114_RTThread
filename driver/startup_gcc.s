@@ -46,7 +46,7 @@
         .long   default_handler + 1     // 28: External Interrupt(12)
         .long   default_handler + 1     // 29: External Interrupt(13) C_CAN
         .long   default_handler + 1     // 30: External Interrupt(14) SPI/SSP1
-        .long   default_handler + 1     // 31: External Interrupt(15) I2C
+        .long   I2C_IRQHandler + 1     // 31: External Interrupt(15) I2C
         .long   default_handler + 1     // 32: External Interrupt(16) CT16B0
         .long   default_handler + 1     // 33: External Interrupt(17) CT16B1
         .long   default_handler + 1     // 34: External Interrupt(18) CT32B0

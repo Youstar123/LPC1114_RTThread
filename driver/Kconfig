@@ -22,6 +22,16 @@ menu "On-chip Peripheral Drivers"
             default y
         endif
 
+    menuconfig BSP_USING_IIC
+        bool "Enable IIC"
+        select RT_USING_IIC
+        default y
+        if BSP_USING_IIC
+            config BSP_USING_IIC_OLED
+            bool "Enable IIC_OLED"
+            default y
+        endif
+
     menuconfig BSP_USING_SERIAL
         select RT_USING_SERIAL
         bool "Enable UART"

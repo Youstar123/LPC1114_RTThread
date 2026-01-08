@@ -13,6 +13,9 @@ CPPPATH +=  [cwd + '/drivers']
 if GetDepend(['BSP_USING_GPIO']):
     src += Glob(cwd +'/drivers/gpio.c')
 
+if GetDepend(['BSP_USING_IIC']):
+    src += Glob(cwd +'/drivers/i2c.c')
+
 if GetDepend(['BSP_USING_GPIO_LED']):
     src += Glob(cwd +'/modules/led/led.c')
     CPPPATH +=  [cwd + '/modules/led']
@@ -20,6 +23,10 @@ if GetDepend(['BSP_USING_GPIO_LED']):
 if GetDepend(['BSP_USING_GPIO_KEY']):
     src += Glob(cwd +'/modules/key/key.c')
     CPPPATH +=  [cwd + '/modules/key']
+
+if GetDepend(['BSP_USING_IIC_OLED']):
+    src += Glob(cwd +'/modules/oled/oled.c')
+    CPPPATH +=  [cwd + '/modules/oled']
 
 if not GetDepend('RT_USING_NANO'):
     src += Glob(cwd + '/drivers/drv_uart.c')

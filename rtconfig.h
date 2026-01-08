@@ -318,6 +318,8 @@
 #define BSP_USING_GPIO
 #define BSP_USING_GPIO_LED
 #define BSP_USING_GPIO_KEY
+#define BSP_USING_IIC
+#define BSP_USING_IIC_OLED
 /* end of On-chip Peripheral Drivers */
 
 /* Onboard Peripheral Drivers */

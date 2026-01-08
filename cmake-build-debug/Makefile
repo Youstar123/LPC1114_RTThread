@@ -56,10 +56,10 @@ RM = "E:\Clion\CLion 2023.2.2\bin\cmake\win\x64\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = E:\1_qianrushi_car\LPC1114_RTThread
+CMAKE_SOURCE_DIR = E:\1_qianrushi_car\3\LPC1114_RTThread
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = E:\1_qianrushi_car\LPC1114_RTThread\cmake-build-debug
+CMAKE_BINARY_DIR = E:\1_qianrushi_car\3\LPC1114_RTThread\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -86,9 +86,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\1_qianrushi_car\LPC1114_RTThread\cmake-build-debug\CMakeFiles E:\1_qianrushi_car\LPC1114_RTThread\cmake-build-debug\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\1_qianrushi_car\3\LPC1114_RTThread\cmake-build-debug\CMakeFiles E:\1_qianrushi_car\3\LPC1114_RTThread\cmake-build-debug\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\1_qianrushi_car\LPC1114_RTThread\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\1_qianrushi_car\3\LPC1114_RTThread\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -300,6 +300,30 @@ driver/drivers/gpio.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\rtt_Drivers.dir\build.make CMakeFiles/rtt_Drivers.dir/driver/drivers/gpio.c.s
 .PHONY : driver/drivers/gpio.c.s
 
+driver/drivers/i2c.obj: driver/drivers/i2c.c.obj
+.PHONY : driver/drivers/i2c.obj
+
+# target to build an object file
+driver/drivers/i2c.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\rtt_Drivers.dir\build.make CMakeFiles/rtt_Drivers.dir/driver/drivers/i2c.c.obj
+.PHONY : driver/drivers/i2c.c.obj
+
+driver/drivers/i2c.i: driver/drivers/i2c.c.i
+.PHONY : driver/drivers/i2c.i
+
+# target to preprocess a source file
+driver/drivers/i2c.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\rtt_Drivers.dir\build.make CMakeFiles/rtt_Drivers.dir/driver/drivers/i2c.c.i
+.PHONY : driver/drivers/i2c.c.i
+
+driver/drivers/i2c.s: driver/drivers/i2c.c.s
+.PHONY : driver/drivers/i2c.s
+
+# target to generate assembly for a file
+driver/drivers/i2c.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\rtt_Drivers.dir\build.make CMakeFiles/rtt_Drivers.dir/driver/drivers/i2c.c.s
+.PHONY : driver/drivers/i2c.c.s
+
 driver/modules/key/key.obj: driver/modules/key/key.c.obj
 .PHONY : driver/modules/key/key.obj
 
@@ -347,6 +371,30 @@ driver/modules/led/led.s: driver/modules/led/led.c.s
 driver/modules/led/led.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\rtt_Drivers.dir\build.make CMakeFiles/rtt_Drivers.dir/driver/modules/led/led.c.s
 .PHONY : driver/modules/led/led.c.s
+
+driver/modules/oled/oled.obj: driver/modules/oled/oled.c.obj
+.PHONY : driver/modules/oled/oled.obj
+
+# target to build an object file
+driver/modules/oled/oled.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\rtt_Drivers.dir\build.make CMakeFiles/rtt_Drivers.dir/driver/modules/oled/oled.c.obj
+.PHONY : driver/modules/oled/oled.c.obj
+
+driver/modules/oled/oled.i: driver/modules/oled/oled.c.i
+.PHONY : driver/modules/oled/oled.i
+
+# target to preprocess a source file
+driver/modules/oled/oled.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\rtt_Drivers.dir\build.make CMakeFiles/rtt_Drivers.dir/driver/modules/oled/oled.c.i
+.PHONY : driver/modules/oled/oled.c.i
+
+driver/modules/oled/oled.s: driver/modules/oled/oled.c.s
+.PHONY : driver/modules/oled/oled.s
+
+# target to generate assembly for a file
+driver/modules/oled/oled.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\rtt_Drivers.dir\build.make CMakeFiles/rtt_Drivers.dir/driver/modules/oled/oled.c.s
+.PHONY : driver/modules/oled/oled.c.s
 
 driver/startup_gcc.obj: driver/startup_gcc.s.obj
 .PHONY : driver/startup_gcc.obj
@@ -944,12 +992,18 @@ help:
 	@echo ... driver/drivers/gpio.obj
 	@echo ... driver/drivers/gpio.i
 	@echo ... driver/drivers/gpio.s
+	@echo ... driver/drivers/i2c.obj
+	@echo ... driver/drivers/i2c.i
+	@echo ... driver/drivers/i2c.s
 	@echo ... driver/modules/key/key.obj
 	@echo ... driver/modules/key/key.i
 	@echo ... driver/modules/key/key.s
 	@echo ... driver/modules/led/led.obj
 	@echo ... driver/modules/led/led.i
 	@echo ... driver/modules/led/led.s
+	@echo ... driver/modules/oled/oled.obj
+	@echo ... driver/modules/oled/oled.i
+	@echo ... driver/modules/oled/oled.s
 	@echo ... driver/startup_gcc.obj
 	@echo ... rt-thread/libcpu/arm/common/div0.obj
 	@echo ... rt-thread/libcpu/arm/common/div0.i
