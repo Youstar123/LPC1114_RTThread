@@ -22,6 +22,19 @@ menu "On-chip Peripheral Drivers"
             default y
         endif
 
+    menuconfig BSP_USING_TIMER
+        bool "Enable TIMER"
+        select RT_USING_TIMER
+        default y
+        if BSP_USING_TIMER
+            config BSP_USING_TIMER16
+            bool "Enable TIMER16"
+            default y
+            config BSP_USING_TIMER32
+            bool "Enable TIMER32"
+            default y
+        endif
+
     menuconfig BSP_USING_IIC
         bool "Enable IIC"
         select RT_USING_IIC
@@ -47,4 +60,21 @@ menu "Board extended module Drivers"
 
 endmenu
 
+menu "Algorithm Drivers"
+
+     config BSP_USING_PID
+        bool "Enable PID"
+        select RT_USING_PID
+        default y
+
+endmenu
+
+menu "Modules Drivers"
+
+     config BSP_USING_MOTOR
+        bool "Enable MOTOR"
+        select RT_USING_MOTOR
+        default y
+
+endmenu
 endmenu

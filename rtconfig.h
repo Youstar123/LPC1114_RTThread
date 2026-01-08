@@ -318,6 +318,9 @@
 #define BSP_USING_GPIO
 #define BSP_USING_GPIO_LED
 #define BSP_USING_GPIO_KEY
+#define BSP_USING_TIMER
+#define BSP_USING_TIMER16
+#define BSP_USING_TIMER32
 #define BSP_USING_IIC
 #define BSP_USING_IIC_OLED
 /* end of On-chip Peripheral Drivers */
@@ -326,6 +329,15 @@
 
 /* Board extended module Drivers */
 
+/* Algorithm Drivers */
+
+#define BSP_USING_PID
+/* end of Algorithm Drivers */
+
+/* Modules Drivers */
+
+#define BSP_USING_MOTOR
+/* end of Modules Drivers */
 /* end of Hardware Drivers Config */
 
 #endif

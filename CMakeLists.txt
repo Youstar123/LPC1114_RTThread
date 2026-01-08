@@ -32,9 +32,11 @@ INCLUDE_DIRECTORIES(
 	driver
 	driver/nxp_drivers
 	driver/drivers
+	driver/algorithm/pid
 	driver/modules/led
 	driver/modules/key
 	driver/modules/oled
+	driver/modules/motor
 	rt-thread/include
 	rt-thread/libcpu/arm/common
 	rt-thread/libcpu/arm/cortex-m0
@@ -49,8 +51,8 @@ ADD_DEFINITIONS(
 
 # Library source files
 SET(RT_APPLICATIONS_SOURCES
-	applications/sysmem.c
 	applications/syscalls.c
+	applications/sysmem.c
 	applications/main.c
 )
 
@@ -58,13 +60,18 @@ SET(RT_DEVICEDRIVERS_SOURCES
 )
 
 SET(RT_DRIVERS_SOURCES
-	driver/drivers/i2c.c
-	driver/modules/led/led.c
-	driver/board.c
-	driver/drivers/gpio.c
-	driver/startup_gcc.s
-	driver/modules/key/key.c
+	driver/drivers/timer32.c
 	driver/modules/oled/oled.c
+	driver/modules/motor/motor.c
+	driver/drivers/i2c.c
+	driver/modules/key/key.c
+	driver/modules/led/led.c
+	driver/nxp_drivers/system_LPC11xx.c
+	driver/board.c
+	driver/startup_gcc.s
+	driver/drivers/gpio.c
+	driver/algorithm/pid/pid.c
+	driver/drivers/timer16.c
 )
 
 SET(RT_KERNEL_SOURCES
@@ -86,11 +93,11 @@ SET(RT_KERNEL_SOURCES
 )
 
 SET(RT_KLIBC_SOURCES
+	rt-thread/src/klibc/rt_vsnprintf_tiny.c
 	rt-thread/src/klibc/kerrno.c
 	rt-thread/src/klibc/rt_vsscanf.c
 	rt-thread/src/klibc/kstring.c
 	rt-thread/src/klibc/kstdio.c
-	rt-thread/src/klibc/rt_vsnprintf_tiny.c
 )
 
 SET(RT_LIBCPU_SOURCES
