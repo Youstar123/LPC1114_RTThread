@@ -7,6 +7,7 @@ list = os.listdir(cwd)
 CPPPATH = [cwd]
 src = Glob('board.c')
 src += Glob('startup_gcc.s')
+src += Glob(cwd +'/nxp_drivers/system_LPC11xx.c')
 CPPPATH +=  [cwd + '/nxp_drivers']
 CPPPATH +=  [cwd + '/drivers']
 
@@ -15,6 +16,16 @@ if GetDepend(['BSP_USING_GPIO']):
 
 if GetDepend(['BSP_USING_IIC']):
     src += Glob(cwd +'/drivers/i2c.c')
+
+if GetDepend(['BSP_USING_TIMER16']):
+    src += Glob(cwd +'/drivers/timer16.c')
+
+if GetDepend(['BSP_USING_TIMER32']):
+    src += Glob(cwd +'/drivers/timer32.c')
+
+if GetDepend(['BSP_USING_PID']):
+    src += Glob(cwd +'/algorithm/pid/pid.c')
+    CPPPATH +=  [cwd + '/algorithm/pid']
 
 if GetDepend(['BSP_USING_GPIO_LED']):
     src += Glob(cwd +'/modules/led/led.c')
@@ -27,6 +38,10 @@ if GetDepend(['BSP_USING_GPIO_KEY']):
 if GetDepend(['BSP_USING_IIC_OLED']):
     src += Glob(cwd +'/modules/oled/oled.c')
     CPPPATH +=  [cwd + '/modules/oled']
+
+if GetDepend(['BSP_USING_MOTOR']):
+    src += Glob(cwd +'/modules/motor/motor.c')
+    CPPPATH +=  [cwd + '/modules/motor']
 
 if not GetDepend('RT_USING_NANO'):
     src += Glob(cwd + '/drivers/drv_uart.c')
