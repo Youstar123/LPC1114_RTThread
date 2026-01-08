@@ -1,5 +1,5 @@
 CMakeFiles/rtthread.elf.dir/applications/syscalls.c.obj: \
- E:\1_qianrushi_car\2\LPC1114_RTThread\applications\syscalls.c \
+ E:\1_qianrushi_car\LPC1114_RTThread\applications\syscalls.c \
  e:\env-windows-v2.0.0\env-windows\tools\gnu_gcc\arm_gcc\mingw\arm-none-eabi\include\sys\stat.h \
  e:\env-windows-v2.0.0\env-windows\tools\gnu_gcc\arm_gcc\mingw\arm-none-eabi\include\_ansi.h \
  e:\env-windows-v2.0.0\env-windows\tools\gnu_gcc\arm_gcc\mingw\arm-none-eabi\include\newlib.h \

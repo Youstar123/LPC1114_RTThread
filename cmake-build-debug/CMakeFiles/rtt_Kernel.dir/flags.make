@@ -4,7 +4,7 @@
 # compile C with E:/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/bin/arm-none-eabi-gcc.exe
 C_DEFINES = -D__RTTHREAD__ -D__RT_KERNEL_SOURCE__
 
-C_INCLUDES = -IE:\1_qianrushi_car\2\LPC1114_RTThread\. -IE:\1_qianrushi_car\2\LPC1114_RTThread\applications -IE:\1_qianrushi_car\2\LPC1114_RTThread\driver -IE:\1_qianrushi_car\2\LPC1114_RTThread\driver\nxp_drivers -IE:\1_qianrushi_car\2\LPC1114_RTThread\rt-thread\include -IE:\1_qianrushi_car\2\LPC1114_RTThread\rt-thread\libcpu\arm\common -IE:\1_qianrushi_car\2\LPC1114_RTThread\rt-thread\libcpu\arm\cortex-m0 -IE:\1_qianrushi_car\2\LPC1114_RTThread\rt-thread\components\drivers\phy -IE:\1_qianrushi_car\2\LPC1114_RTThread\rt-thread\components\drivers\include -IE:\1_qianrushi_car\2\LPC1114_RTThread\rt-thread\components\drivers\smp_call
+C_INCLUDES = -IE:\1_qianrushi_car\LPC1114_RTThread\. -IE:\1_qianrushi_car\LPC1114_RTThread\applications -IE:\1_qianrushi_car\LPC1114_RTThread\driver -IE:\1_qianrushi_car\LPC1114_RTThread\driver\nxp_drivers -IE:\1_qianrushi_car\LPC1114_RTThread\driver\drivers -IE:\1_qianrushi_car\LPC1114_RTThread\driver\modules\led -IE:\1_qianrushi_car\LPC1114_RTThread\driver\modules\key -IE:\1_qianrushi_car\LPC1114_RTThread\rt-thread\include -IE:\1_qianrushi_car\LPC1114_RTThread\rt-thread\libcpu\arm\common -IE:\1_qianrushi_car\LPC1114_RTThread\rt-thread\libcpu\arm\cortex-m0 -IE:\1_qianrushi_car\LPC1114_RTThread\rt-thread\components\drivers\phy -IE:\1_qianrushi_car\LPC1114_RTThread\rt-thread\components\drivers\include -IE:\1_qianrushi_car\LPC1114_RTThread\rt-thread\components\drivers\smp_call
 
 C_FLAGS =  -mcpu=cortex-m0 -mthumb -ffunction-sections -fdata-sections -Wall -O0 -gdwarf-2 -std=gnu11 -fdiagnostics-color=always
 

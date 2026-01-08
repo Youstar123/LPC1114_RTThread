@@ -61,7 +61,7 @@
         .long   default_handler + 1     // 43: External Interrupt(27)
         .long   default_handler + 1     // 44: External Interrupt(28) PIO_3
         .long   default_handler + 1     // 45: External Interrupt(29) PIO_2
-        .long   default_handler + 1     // 46: External Interrupt(30) PIO_1
+        .long   PIOINT1_IRQHandler + 1  // 46: External Interrupt(30) PIO_1
         .long   default_handler + 1     // 47: External Interrupt(31) PIO_0
         .long   default_handler + 1     // 48: External Interrupt(32)
         .long   default_handler + 1     // 49: External Interrupt(33)

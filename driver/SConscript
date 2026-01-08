@@ -8,13 +8,21 @@ CPPPATH = [cwd]
 src = Glob('board.c')
 src += Glob('startup_gcc.s')
 CPPPATH +=  [cwd + '/nxp_drivers']
+CPPPATH +=  [cwd + '/drivers']
 
 if GetDepend(['BSP_USING_GPIO']):
-    src += Glob('gpio.c')
-    src += Glob('led.c')
+    src += Glob(cwd +'/drivers/gpio.c')
+
+if GetDepend(['BSP_USING_GPIO_LED']):
+    src += Glob(cwd +'/modules/led/led.c')
+    CPPPATH +=  [cwd + '/modules/led']
+
+if GetDepend(['BSP_USING_GPIO_KEY']):
+    src += Glob(cwd +'/modules/key/key.c')
+    CPPPATH +=  [cwd + '/modules/key']
 
 if not GetDepend('RT_USING_NANO'):
-    src += Glob(cwd + 'drv_uart.c')
+    src += Glob(cwd + '/drivers/drv_uart.c')
 
 objs = DefineGroup('Drivers', src, depend = [''], CPPPATH = CPPPATH)
 

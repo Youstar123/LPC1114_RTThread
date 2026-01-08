@@ -31,6 +31,9 @@ INCLUDE_DIRECTORIES(
 	applications
 	driver
 	driver/nxp_drivers
+	driver/drivers
+	driver/modules/led
+	driver/modules/key
 	rt-thread/include
 	rt-thread/libcpu/arm/common
 	rt-thread/libcpu/arm/cortex-m0
@@ -45,17 +48,18 @@ ADD_DEFINITIONS(
 
 # Library source files
 SET(RT_APPLICATIONS_SOURCES
-	applications/main.c
-	applications/sysmem.c
 	applications/syscalls.c
+	applications/sysmem.c
+	applications/main.c
 )
 
 SET(RT_DEVICEDRIVERS_SOURCES
 )
 
 SET(RT_DRIVERS_SOURCES
-	driver/gpio.c
-	driver/led.c
+	driver/modules/key/key.c
+	driver/modules/led/led.c
+	driver/drivers/gpio.c
 	driver/board.c
 	driver/startup_gcc.s
 )
@@ -79,11 +83,11 @@ SET(RT_KERNEL_SOURCES
 )
 
 SET(RT_KLIBC_SOURCES
+	rt-thread/src/klibc/kerrno.c
 	rt-thread/src/klibc/rt_vsscanf.c
 	rt-thread/src/klibc/kstring.c
-	rt-thread/src/klibc/kerrno.c
-	rt-thread/src/klibc/rt_vsnprintf_tiny.c
 	rt-thread/src/klibc/kstdio.c
+	rt-thread/src/klibc/rt_vsnprintf_tiny.c
 )
 
 SET(RT_LIBCPU_SOURCES

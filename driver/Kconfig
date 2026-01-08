@@ -9,10 +9,18 @@ config SOC_LPC1114
 
 menu "On-chip Peripheral Drivers"
 
-    config BSP_USING_GPIO
+    menuconfig BSP_USING_GPIO
         bool "Enable GPIO"
         select RT_USING_GPIO
         default y
+        if BSP_USING_GPIO
+            config BSP_USING_GPIO_LED
+            bool "Enable GPIO_LED"
+            default y
+            config BSP_USING_GPIO_KEY
+            bool "Enable GPIO_KEY"
+            default y
+        endif
 
     menuconfig BSP_USING_SERIAL
         select RT_USING_SERIAL

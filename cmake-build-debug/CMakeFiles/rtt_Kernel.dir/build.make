@@ -52,10 +52,10 @@ RM = "E:\Clion\CLion 2023.2.2\bin\cmake\win\x64\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = E:\1_qianrushi_car\2\LPC1114_RTThread
+CMAKE_SOURCE_DIR = E:\1_qianrushi_car\LPC1114_RTThread
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = E:\1_qianrushi_car\2\LPC1114_RTThread\cmake-build-debug
+CMAKE_BINARY_DIR = E:\1_qianrushi_car\LPC1114_RTThread\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/rtt_Kernel.dir/depend.make
@@ -69,214 +69,214 @@ include CMakeFiles/rtt_Kernel.dir/progress.make
 include CMakeFiles/rtt_Kernel.dir/flags.make
 
 CMakeFiles/rtt_Kernel.dir/rt-thread/src/clock.c.obj: CMakeFiles/rtt_Kernel.dir/flags.make
-CMakeFiles/rtt_Kernel.dir/rt-thread/src/clock.c.obj: E:/1_qianrushi_car/2/LPC1114_RTThread/rt-thread/src/clock.c
+CMakeFiles/rtt_Kernel.dir/rt-thread/src/clock.c.obj: E:/1_qianrushi_car/LPC1114_RTThread/rt-thread/src/clock.c
 CMakeFiles/rtt_Kernel.dir/rt-thread/src/clock.c.obj: CMakeFiles/rtt_Kernel.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\1_qianrushi_car\2\LPC1114_RTThread\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/rtt_Kernel.dir/rt-thread/src/clock.c.obj"
-	E:\env-windows-v2.0.0\env-windows\tools\gnu_gcc\arm_gcc\mingw\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/rtt_Kernel.dir/rt-thread/src/clock.c.obj -MF CMakeFiles\rtt_Kernel.dir\rt-thread\src\clock.c.obj.d -o CMakeFiles\rtt_Kernel.dir\rt-thread\src\clock.c.obj -c E:\1_qianrushi_car\2\LPC1114_RTThread\rt-thread\src\clock.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\1_qianrushi_car\LPC1114_RTThread\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/rtt_Kernel.dir/rt-thread/src/clock.c.obj"
+	E:\env-windows-v2.0.0\env-windows\tools\gnu_gcc\arm_gcc\mingw\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/rtt_Kernel.dir/rt-thread/src/clock.c.obj -MF CMakeFiles\rtt_Kernel.dir\rt-thread\src\clock.c.obj.d -o CMakeFiles\rtt_Kernel.dir\rt-thread\src\clock.c.obj -c E:\1_qianrushi_car\LPC1114_RTThread\rt-thread\src\clock.c
 
 CMakeFiles/rtt_Kernel.dir/rt-thread/src/clock.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/rtt_Kernel.dir/rt-thread/src/clock.c.i"
-	E:\env-windows-v2.0.0\env-windows\tools\gnu_gcc\arm_gcc\mingw\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\1_qianrushi_car\2\LPC1114_RTThread\rt-thread\src\clock.c > CMakeFiles\rtt_Kernel.dir\rt-thread\src\clock.c.i
+	E:\env-windows-v2.0.0\env-windows\tools\gnu_gcc\arm_gcc\mingw\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\1_qianrushi_car\LPC1114_RTThread\rt-thread\src\clock.c > CMakeFiles\rtt_Kernel.dir\rt-thread\src\clock.c.i
 
 CMakeFiles/rtt_Kernel.dir/rt-thread/src/clock.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/rtt_Kernel.dir/rt-thread/src/clock.c.s"
-	E:\env-windows-v2.0.0\env-windows\tools\gnu_gcc\arm_gcc\mingw\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\1_qianrushi_car\2\LPC1114_RTThread\rt-thread\src\clock.c -o CMakeFiles\rtt_Kernel.dir\rt-thread\src\clock.c.s
+	E:\env-windows-v2.0.0\env-windows\tools\gnu_gcc\arm_gcc\mingw\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\1_qianrushi_car\LPC1114_RTThread\rt-thread\src\clock.c -o CMakeFiles\rtt_Kernel.dir\rt-thread\src\clock.c.s
 
 CMakeFiles/rtt_Kernel.dir/rt-thread/src/components.c.obj: CMakeFiles/rtt_Kernel.dir/flags.make
-CMakeFiles/rtt_Kernel.dir/rt-thread/src/components.c.obj: E:/1_qianrushi_car/2/LPC1114_RTThread/rt-thread/src/components.c
+CMakeFiles/rtt_Kernel.dir/rt-thread/src/components.c.obj: E:/1_qianrushi_car/LPC1114_RTThread/rt-thread/src/components.c
 CMakeFiles/rtt_Kernel.dir/rt-thread/src/components.c.obj: CMakeFiles/rtt_Kernel.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\1_qianrushi_car\2\LPC1114_RTThread\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/rtt_Kernel.dir/rt-thread/src/components.c.obj"
-	E:\env-windows-v2.0.0\env-windows\tools\gnu_gcc\arm_gcc\mingw\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/rtt_Kernel.dir/rt-thread/src/components.c.obj -MF CMakeFiles\rtt_Kernel.dir\rt-thread\src\components.c.obj.d -o CMakeFiles\rtt_Kernel.dir\rt-thread\src\components.c.obj -c E:\1_qianrushi_car\2\LPC1114_RTThread\rt-thread\src\components.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\1_qianrushi_car\LPC1114_RTThread\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/rtt_Kernel.dir/rt-thread/src/components.c.obj"
+	E:\env-windows-v2.0.0\env-windows\tools\gnu_gcc\arm_gcc\mingw\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/rtt_Kernel.dir/rt-thread/src/components.c.obj -MF CMakeFiles\rtt_Kernel.dir\rt-thread\src\components.c.obj.d -o CMakeFiles\rtt_Kernel.dir\rt-thread\src\components.c.obj -c E:\1_qianrushi_car\LPC1114_RTThread\rt-thread\src\components.c
 
 CMakeFiles/rtt_Kernel.dir/rt-thread/src/components.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/rtt_Kernel.dir/rt-thread/src/components.c.i"
-	E:\env-windows-v2.0.0\env-windows\tools\gnu_gcc\arm_gcc\mingw\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\1_qianrushi_car\2\LPC1114_RTThread\rt-thread\src\components.c > CMakeFiles\rtt_Kernel.dir\rt-thread\src\components.c.i
+	E:\env-windows-v2.0.0\env-windows\tools\gnu_gcc\arm_gcc\mingw\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\1_qianrushi_car\LPC1114_RTThread\rt-thread\src\components.c > CMakeFiles\rtt_Kernel.dir\rt-thread\src\components.c.i
 
 CMakeFiles/rtt_Kernel.dir/rt-thread/src/components.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/rtt_Kernel.dir/rt-thread/src/components.c.s"
-	E:\env-windows-v2.0.0\env-windows\tools\gnu_gcc\arm_gcc\mingw\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\1_qianrushi_car\2\LPC1114_RTThread\rt-thread\src\components.c -o CMakeFiles\rtt_Kernel.dir\rt-thread\src\components.c.s
+	E:\env-windows-v2.0.0\env-windows\tools\gnu_gcc\arm_gcc\mingw\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\1_qianrushi_car\LPC1114_RTThread\rt-thread\src\components.c -o CMakeFiles\rtt_Kernel.dir\rt-thread\src\components.c.s
 
 CMakeFiles/rtt_Kernel.dir/rt-thread/src/cpu_up.c.obj: CMakeFiles/rtt_Kernel.dir/flags.make
-CMakeFiles/rtt_Kernel.dir/rt-thread/src/cpu_up.c.obj: E:/1_qianrushi_car/2/LPC1114_RTThread/rt-thread/src/cpu_up.c
+CMakeFiles/rtt_Kernel.dir/rt-thread/src/cpu_up.c.obj: E:/1_qianrushi_car/LPC1114_RTThread/rt-thread/src/cpu_up.c
 CMakeFiles/rtt_Kernel.dir/rt-thread/src/cpu_up.c.obj: CMakeFiles/rtt_Kernel.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\1_qianrushi_car\2\LPC1114_RTThread\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/rtt_Kernel.dir/rt-thread/src/cpu_up.c.obj"
-	E:\env-windows-v2.0.0\env-windows\tools\gnu_gcc\arm_gcc\mingw\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/rtt_Kernel.dir/rt-thread/src/cpu_up.c.obj -MF CMakeFiles\rtt_Kernel.dir\rt-thread\src\cpu_up.c.obj.d -o CMakeFiles\rtt_Kernel.dir\rt-thread\src\cpu_up.c.obj -c E:\1_qianrushi_car\2\LPC1114_RTThread\rt-thread\src\cpu_up.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\1_qianrushi_car\LPC1114_RTThread\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/rtt_Kernel.dir/rt-thread/src/cpu_up.c.obj"
+	E:\env-windows-v2.0.0\env-windows\tools\gnu_gcc\arm_gcc\mingw\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/rtt_Kernel.dir/rt-thread/src/cpu_up.c.obj -MF CMakeFiles\rtt_Kernel.dir\rt-thread\src\cpu_up.c.obj.d -o CMakeFiles\rtt_Kernel.dir\rt-thread\src\cpu_up.c.obj -c E:\1_qianrushi_car\LPC1114_RTThread\rt-thread\src\cpu_up.c
 
 CMakeFiles/rtt_Kernel.dir/rt-thread/src/cpu_up.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/rtt_Kernel.dir/rt-thread/src/cpu_up.c.i"
-	E:\env-windows-v2.0.0\env-windows\tools\gnu_gcc\arm_gcc\mingw\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\1_qianrushi_car\2\LPC1114_RTThread\rt-thread\src\cpu_up.c > CMakeFiles\rtt_Kernel.dir\rt-thread\src\cpu_up.c.i
+	E:\env-windows-v2.0.0\env-windows\tools\gnu_gcc\arm_gcc\mingw\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\1_qianrushi_car\LPC1114_RTThread\rt-thread\src\cpu_up.c > CMakeFiles\rtt_Kernel.dir\rt-thread\src\cpu_up.c.i
 
 CMakeFiles/rtt_Kernel.dir/rt-thread/src/cpu_up.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/rtt_Kernel.dir/rt-thread/src/cpu_up.c.s"
-	E:\env-windows-v2.0.0\env-windows\tools\gnu_gcc\arm_gcc\mingw\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\1_qianrushi_car\2\LPC1114_RTThread\rt-thread\src\cpu_up.c -o CMakeFiles\rtt_Kernel.dir\rt-thread\src\cpu_up.c.s
+	E:\env-windows-v2.0.0\env-windows\tools\gnu_gcc\arm_gcc\mingw\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\1_qianrushi_car\LPC1114_RTThread\rt-thread\src\cpu_up.c -o CMakeFiles\rtt_Kernel.dir\rt-thread\src\cpu_up.c.s
 
 CMakeFiles/rtt_Kernel.dir/rt-thread/src/defunct.c.obj: CMakeFiles/rtt_Kernel.dir/flags.make
-CMakeFiles/rtt_Kernel.dir/rt-thread/src/defunct.c.obj: E:/1_qianrushi_car/2/LPC1114_RTThread/rt-thread/src/defunct.c
+CMakeFiles/rtt_Kernel.dir/rt-thread/src/defunct.c.obj: E:/1_qianrushi_car/LPC1114_RTThread/rt-thread/src/defunct.c
 CMakeFiles/rtt_Kernel.dir/rt-thread/src/defunct.c.obj: CMakeFiles/rtt_Kernel.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\1_qianrushi_car\2\LPC1114_RTThread\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/rtt_Kernel.dir/rt-thread/src/defunct.c.obj"
-	E:\env-windows-v2.0.0\env-windows\tools\gnu_gcc\arm_gcc\mingw\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/rtt_Kernel.dir/rt-thread/src/defunct.c.obj -MF CMakeFiles\rtt_Kernel.dir\rt-thread\src\defunct.c.obj.d -o CMakeFiles\rtt_Kernel.dir\rt-thread\src\defunct.c.obj -c E:\1_qianrushi_car\2\LPC1114_RTThread\rt-thread\src\defunct.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\1_qianrushi_car\LPC1114_RTThread\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/rtt_Kernel.dir/rt-thread/src/defunct.c.obj"
+	E:\env-windows-v2.0.0\env-windows\tools\gnu_gcc\arm_gcc\mingw\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/rtt_Kernel.dir/rt-thread/src/defunct.c.obj -MF CMakeFiles\rtt_Kernel.dir\rt-thread\src\defunct.c.obj.d -o CMakeFiles\rtt_Kernel.dir\rt-thread\src\defunct.c.obj -c E:\1_qianrushi_car\LPC1114_RTThread\rt-thread\src\defunct.c
 
 CMakeFiles/rtt_Kernel.dir/rt-thread/src/defunct.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/rtt_Kernel.dir/rt-thread/src/defunct.c.i"
-	E:\env-windows-v2.0.0\env-windows\tools\gnu_gcc\arm_gcc\mingw\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\1_qianrushi_car\2\LPC1114_RTThread\rt-thread\src\defunct.c > CMakeFiles\rtt_Kernel.dir\rt-thread\src\defunct.c.i
+	E:\env-windows-v2.0.0\env-windows\tools\gnu_gcc\arm_gcc\mingw\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\1_qianrushi_car\LPC1114_RTThread\rt-thread\src\defunct.c > CMakeFiles\rtt_Kernel.dir\rt-thread\src\defunct.c.i
 
 CMakeFiles/rtt_Kernel.dir/rt-thread/src/defunct.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/rtt_Kernel.dir/rt-thread/src/defunct.c.s"
-	E:\env-windows-v2.0.0\env-windows\tools\gnu_gcc\arm_gcc\mingw\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\1_qianrushi_car\2\LPC1114_RTThread\rt-thread\src\defunct.c -o CMakeFiles\rtt_Kernel.dir\rt-thread\src\defunct.c.s
+	E:\env-windows-v2.0.0\env-windows\tools\gnu_gcc\arm_gcc\mingw\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\1_qianrushi_car\LPC1114_RTThread\rt-thread\src\defunct.c -o CMakeFiles\rtt_Kernel.dir\rt-thread\src\defunct.c.s
 
 CMakeFiles/rtt_Kernel.dir/rt-thread/src/idle.c.obj: CMakeFiles/rtt_Kernel.dir/flags.make
-CMakeFiles/rtt_Kernel.dir/rt-thread/src/idle.c.obj: E:/1_qianrushi_car/2/LPC1114_RTThread/rt-thread/src/idle.c
+CMakeFiles/rtt_Kernel.dir/rt-thread/src/idle.c.obj: E:/1_qianrushi_car/LPC1114_RTThread/rt-thread/src/idle.c
 CMakeFiles/rtt_Kernel.dir/rt-thread/src/idle.c.obj: CMakeFiles/rtt_Kernel.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\1_qianrushi_car\2\LPC1114_RTThread\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/rtt_Kernel.dir/rt-thread/src/idle.c.obj"
-	E:\env-windows-v2.0.0\env-windows\tools\gnu_gcc\arm_gcc\mingw\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/rtt_Kernel.dir/rt-thread/src/idle.c.obj -MF CMakeFiles\rtt_Kernel.dir\rt-thread\src\idle.c.obj.d -o CMakeFiles\rtt_Kernel.dir\rt-thread\src\idle.c.obj -c E:\1_qianrushi_car\2\LPC1114_RTThread\rt-thread\src\idle.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\1_qianrushi_car\LPC1114_RTThread\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/rtt_Kernel.dir/rt-thread/src/idle.c.obj"
+	E:\env-windows-v2.0.0\env-windows\tools\gnu_gcc\arm_gcc\mingw\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/rtt_Kernel.dir/rt-thread/src/idle.c.obj -MF CMakeFiles\rtt_Kernel.dir\rt-thread\src\idle.c.obj.d -o CMakeFiles\rtt_Kernel.dir\rt-thread\src\idle.c.obj -c E:\1_qianrushi_car\LPC1114_RTThread\rt-thread\src\idle.c
 
 CMakeFiles/rtt_Kernel.dir/rt-thread/src/idle.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/rtt_Kernel.dir/rt-thread/src/idle.c.i"
-	E:\env-windows-v2.0.0\env-windows\tools\gnu_gcc\arm_gcc\mingw\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\1_qianrushi_car\2\LPC1114_RTThread\rt-thread\src\idle.c > CMakeFiles\rtt_Kernel.dir\rt-thread\src\idle.c.i
+	E:\env-windows-v2.0.0\env-windows\tools\gnu_gcc\arm_gcc\mingw\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\1_qianrushi_car\LPC1114_RTThread\rt-thread\src\idle.c > CMakeFiles\rtt_Kernel.dir\rt-thread\src\idle.c.i
 
 CMakeFiles/rtt_Kernel.dir/rt-thread/src/idle.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/rtt_Kernel.dir/rt-thread/src/idle.c.s"
-	E:\env-windows-v2.0.0\env-windows\tools\gnu_gcc\arm_gcc\mingw\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\1_qianrushi_car\2\LPC1114_RTThread\rt-thread\src\idle.c -o CMakeFiles\rtt_Kernel.dir\rt-thread\src\idle.c.s
+	E:\env-windows-v2.0.0\env-windows\tools\gnu_gcc\arm_gcc\mingw\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\1_qianrushi_car\LPC1114_RTThread\rt-thread\src\idle.c -o CMakeFiles\rtt_Kernel.dir\rt-thread\src\idle.c.s
 
 CMakeFiles/rtt_Kernel.dir/rt-thread/src/ipc.c.obj: CMakeFiles/rtt_Kernel.dir/flags.make
-CMakeFiles/rtt_Kernel.dir/rt-thread/src/ipc.c.obj: E:/1_qianrushi_car/2/LPC1114_RTThread/rt-thread/src/ipc.c
+CMakeFiles/rtt_Kernel.dir/rt-thread/src/ipc.c.obj: E:/1_qianrushi_car/LPC1114_RTThread/rt-thread/src/ipc.c
 CMakeFiles/rtt_Kernel.dir/rt-thread/src/ipc.c.obj: CMakeFiles/rtt_Kernel.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\1_qianrushi_car\2\LPC1114_RTThread\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/rtt_Kernel.dir/rt-thread/src/ipc.c.obj"
-	E:\env-windows-v2.0.0\env-windows\tools\gnu_gcc\arm_gcc\mingw\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/rtt_Kernel.dir/rt-thread/src/ipc.c.obj -MF CMakeFiles\rtt_Kernel.dir\rt-thread\src\ipc.c.obj.d -o CMakeFiles\rtt_Kernel.dir\rt-thread\src\ipc.c.obj -c E:\1_qianrushi_car\2\LPC1114_RTThread\rt-thread\src\ipc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\1_qianrushi_car\LPC1114_RTThread\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/rtt_Kernel.dir/rt-thread/src/ipc.c.obj"
+	E:\env-windows-v2.0.0\env-windows\tools\gnu_gcc\arm_gcc\mingw\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/rtt_Kernel.dir/rt-thread/src/ipc.c.obj -MF CMakeFiles\rtt_Kernel.dir\rt-thread\src\ipc.c.obj.d -o CMakeFiles\rtt_Kernel.dir\rt-thread\src\ipc.c.obj -c E:\1_qianrushi_car\LPC1114_RTThread\rt-thread\src\ipc.c
 
 CMakeFiles/rtt_Kernel.dir/rt-thread/src/ipc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/rtt_Kernel.dir/rt-thread/src/ipc.c.i"
-	E:\env-windows-v2.0.0\env-windows\tools\gnu_gcc\arm_gcc\mingw\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\1_qianrushi_car\2\LPC1114_RTThread\rt-thread\src\ipc.c > CMakeFiles\rtt_Kernel.dir\rt-thread\src\ipc.c.i
+	E:\env-windows-v2.0.0\env-windows\tools\gnu_gcc\arm_gcc\mingw\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\1_qianrushi_car\LPC1114_RTThread\rt-thread\src\ipc.c > CMakeFiles\rtt_Kernel.dir\rt-thread\src\ipc.c.i
 
 CMakeFiles/rtt_Kernel.dir/rt-thread/src/ipc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/rtt_Kernel.dir/rt-thread/src/ipc.c.s"
-	E:\env-windows-v2.0.0\env-windows\tools\gnu_gcc\arm_gcc\mingw\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\1_qianrushi_car\2\LPC1114_RTThread\rt-thread\src\ipc.c -o CMakeFiles\rtt_Kernel.dir\rt-thread\src\ipc.c.s
+	E:\env-windows-v2.0.0\env-windows\tools\gnu_gcc\arm_gcc\mingw\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\1_qianrushi_car\LPC1114_RTThread\rt-thread\src\ipc.c -o CMakeFiles\rtt_Kernel.dir\rt-thread\src\ipc.c.s
 
 CMakeFiles/rtt_Kernel.dir/rt-thread/src/irq.c.obj: CMakeFiles/rtt_Kernel.dir/flags.make
-CMakeFiles/rtt_Kernel.dir/rt-thread/src/irq.c.obj: E:/1_qianrushi_car/2/LPC1114_RTThread/rt-thread/src/irq.c
+CMakeFiles/rtt_Kernel.dir/rt-thread/src/irq.c.obj: E:/1_qianrushi_car/LPC1114_RTThread/rt-thread/src/irq.c
 CMakeFiles/rtt_Kernel.dir/rt-thread/src/irq.c.obj: CMakeFiles/rtt_Kernel.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\1_qianrushi_car\2\LPC1114_RTThread\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/rtt_Kernel.dir/rt-thread/src/irq.c.obj"
-	E:\env-windows-v2.0.0\env-windows\tools\gnu_gcc\arm_gcc\mingw\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/rtt_Kernel.dir/rt-thread/src/irq.c.obj -MF CMakeFiles\rtt_Kernel.dir\rt-thread\src\irq.c.obj.d -o CMakeFiles\rtt_Kernel.dir\rt-thread\src\irq.c.obj -c E:\1_qianrushi_car\2\LPC1114_RTThread\rt-thread\src\irq.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\1_qianrushi_car\LPC1114_RTThread\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/rtt_Kernel.dir/rt-thread/src/irq.c.obj"
+	E:\env-windows-v2.0.0\env-windows\tools\gnu_gcc\arm_gcc\mingw\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/rtt_Kernel.dir/rt-thread/src/irq.c.obj -MF CMakeFiles\rtt_Kernel.dir\rt-thread\src\irq.c.obj.d -o CMakeFiles\rtt_Kernel.dir\rt-thread\src\irq.c.obj -c E:\1_qianrushi_car\LPC1114_RTThread\rt-thread\src\irq.c
 
 CMakeFiles/rtt_Kernel.dir/rt-thread/src/irq.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/rtt_Kernel.dir/rt-thread/src/irq.c.i"
-	E:\env-windows-v2.0.0\env-windows\tools\gnu_gcc\arm_gcc\mingw\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\1_qianrushi_car\2\LPC1114_RTThread\rt-thread\src\irq.c > CMakeFiles\rtt_Kernel.dir\rt-thread\src\irq.c.i
+	E:\env-windows-v2.0.0\env-windows\tools\gnu_gcc\arm_gcc\mingw\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\1_qianrushi_car\LPC1114_RTThread\rt-thread\src\irq.c > CMakeFiles\rtt_Kernel.dir\rt-thread\src\irq.c.i
 
 CMakeFiles/rtt_Kernel.dir/rt-thread/src/irq.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/rtt_Kernel.dir/rt-thread/src/irq.c.s"
-	E:\env-windows-v2.0.0\env-windows\tools\gnu_gcc\arm_gcc\mingw\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\1_qianrushi_car\2\LPC1114_RTThread\rt-thread\src\irq.c -o CMakeFiles\rtt_Kernel.dir\rt-thread\src\irq.c.s
+	E:\env-windows-v2.0.0\env-windows\tools\gnu_gcc\arm_gcc\mingw\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\1_qianrushi_car\LPC1114_RTThread\rt-thread\src\irq.c -o CMakeFiles\rtt_Kernel.dir\rt-thread\src\irq.c.s
 
 CMakeFiles/rtt_Kernel.dir/rt-thread/src/kservice.c.obj: CMakeFiles/rtt_Kernel.dir/flags.make
-CMakeFiles/rtt_Kernel.dir/rt-thread/src/kservice.c.obj: E:/1_qianrushi_car/2/LPC1114_RTThread/rt-thread/src/kservice.c
+CMakeFiles/rtt_Kernel.dir/rt-thread/src/kservice.c.obj: E:/1_qianrushi_car/LPC1114_RTThread/rt-thread/src/kservice.c
 CMakeFiles/rtt_Kernel.dir/rt-thread/src/kservice.c.obj: CMakeFiles/rtt_Kernel.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\1_qianrushi_car\2\LPC1114_RTThread\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/rtt_Kernel.dir/rt-thread/src/kservice.c.obj"
-	E:\env-windows-v2.0.0\env-windows\tools\gnu_gcc\arm_gcc\mingw\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/rtt_Kernel.dir/rt-thread/src/kservice.c.obj -MF CMakeFiles\rtt_Kernel.dir\rt-thread\src\kservice.c.obj.d -o CMakeFiles\rtt_Kernel.dir\rt-thread\src\kservice.c.obj -c E:\1_qianrushi_car\2\LPC1114_RTThread\rt-thread\src\kservice.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\1_qianrushi_car\LPC1114_RTThread\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/rtt_Kernel.dir/rt-thread/src/kservice.c.obj"
+	E:\env-windows-v2.0.0\env-windows\tools\gnu_gcc\arm_gcc\mingw\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/rtt_Kernel.dir/rt-thread/src/kservice.c.obj -MF CMakeFiles\rtt_Kernel.dir\rt-thread\src\kservice.c.obj.d -o CMakeFiles\rtt_Kernel.dir\rt-thread\src\kservice.c.obj -c E:\1_qianrushi_car\LPC1114_RTThread\rt-thread\src\kservice.c
 
 CMakeFiles/rtt_Kernel.dir/rt-thread/src/kservice.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/rtt_Kernel.dir/rt-thread/src/kservice.c.i"
-	E:\env-windows-v2.0.0\env-windows\tools\gnu_gcc\arm_gcc\mingw\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\1_qianrushi_car\2\LPC1114_RTThread\rt-thread\src\kservice.c > CMakeFiles\rtt_Kernel.dir\rt-thread\src\kservice.c.i
+	E:\env-windows-v2.0.0\env-windows\tools\gnu_gcc\arm_gcc\mingw\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\1_qianrushi_car\LPC1114_RTThread\rt-thread\src\kservice.c > CMakeFiles\rtt_Kernel.dir\rt-thread\src\kservice.c.i
 
 CMakeFiles/rtt_Kernel.dir/rt-thread/src/kservice.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/rtt_Kernel.dir/rt-thread/src/kservice.c.s"
-	E:\env-windows-v2.0.0\env-windows\tools\gnu_gcc\arm_gcc\mingw\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\1_qianrushi_car\2\LPC1114_RTThread\rt-thread\src\kservice.c -o CMakeFiles\rtt_Kernel.dir\rt-thread\src\kservice.c.s
+	E:\env-windows-v2.0.0\env-windows\tools\gnu_gcc\arm_gcc\mingw\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\1_qianrushi_car\LPC1114_RTThread\rt-thread\src\kservice.c -o CMakeFiles\rtt_Kernel.dir\rt-thread\src\kservice.c.s
 
 CMakeFiles/rtt_Kernel.dir/rt-thread/src/mem.c.obj: CMakeFiles/rtt_Kernel.dir/flags.make
-CMakeFiles/rtt_Kernel.dir/rt-thread/src/mem.c.obj: E:/1_qianrushi_car/2/LPC1114_RTThread/rt-thread/src/mem.c
+CMakeFiles/rtt_Kernel.dir/rt-thread/src/mem.c.obj: E:/1_qianrushi_car/LPC1114_RTThread/rt-thread/src/mem.c
 CMakeFiles/rtt_Kernel.dir/rt-thread/src/mem.c.obj: CMakeFiles/rtt_Kernel.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\1_qianrushi_car\2\LPC1114_RTThread\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/rtt_Kernel.dir/rt-thread/src/mem.c.obj"
-	E:\env-windows-v2.0.0\env-windows\tools\gnu_gcc\arm_gcc\mingw\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/rtt_Kernel.dir/rt-thread/src/mem.c.obj -MF CMakeFiles\rtt_Kernel.dir\rt-thread\src\mem.c.obj.d -o CMakeFiles\rtt_Kernel.dir\rt-thread\src\mem.c.obj -c E:\1_qianrushi_car\2\LPC1114_RTThread\rt-thread\src\mem.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\1_qianrushi_car\LPC1114_RTThread\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/rtt_Kernel.dir/rt-thread/src/mem.c.obj"
+	E:\env-windows-v2.0.0\env-windows\tools\gnu_gcc\arm_gcc\mingw\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/rtt_Kernel.dir/rt-thread/src/mem.c.obj -MF CMakeFiles\rtt_Kernel.dir\rt-thread\src\mem.c.obj.d -o CMakeFiles\rtt_Kernel.dir\rt-thread\src\mem.c.obj -c E:\1_qianrushi_car\LPC1114_RTThread\rt-thread\src\mem.c
 
 CMakeFiles/rtt_Kernel.dir/rt-thread/src/mem.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/rtt_Kernel.dir/rt-thread/src/mem.c.i"
-	E:\env-windows-v2.0.0\env-windows\tools\gnu_gcc\arm_gcc\mingw\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\1_qianrushi_car\2\LPC1114_RTThread\rt-thread\src\mem.c > CMakeFiles\rtt_Kernel.dir\rt-thread\src\mem.c.i
+	E:\env-windows-v2.0.0\env-windows\tools\gnu_gcc\arm_gcc\mingw\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\1_qianrushi_car\LPC1114_RTThread\rt-thread\src\mem.c > CMakeFiles\rtt_Kernel.dir\rt-thread\src\mem.c.i
 
 CMakeFiles/rtt_Kernel.dir/rt-thread/src/mem.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/rtt_Kernel.dir/rt-thread/src/mem.c.s"
-	E:\env-windows-v2.0.0\env-windows\tools\gnu_gcc\arm_gcc\mingw\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\1_qianrushi_car\2\LPC1114_RTThread\rt-thread\src\mem.c -o CMakeFiles\rtt_Kernel.dir\rt-thread\src\mem.c.s
+	E:\env-windows-v2.0.0\env-windows\tools\gnu_gcc\arm_gcc\mingw\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\1_qianrushi_car\LPC1114_RTThread\rt-thread\src\mem.c -o CMakeFiles\rtt_Kernel.dir\rt-thread\src\mem.c.s
 
 CMakeFiles/rtt_Kernel.dir/rt-thread/src/mempool.c.obj: CMakeFiles/rtt_Kernel.dir/flags.make
-CMakeFiles/rtt_Kernel.dir/rt-thread/src/mempool.c.obj: E:/1_qianrushi_car/2/LPC1114_RTThread/rt-thread/src/mempool.c
+CMakeFiles/rtt_Kernel.dir/rt-thread/src/mempool.c.obj: E:/1_qianrushi_car/LPC1114_RTThread/rt-thread/src/mempool.c
 CMakeFiles/rtt_Kernel.dir/rt-thread/src/mempool.c.obj: CMakeFiles/rtt_Kernel.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\1_qianrushi_car\2\LPC1114_RTThread\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/rtt_Kernel.dir/rt-thread/src/mempool.c.obj"
-	E:\env-windows-v2.0.0\env-windows\tools\gnu_gcc\arm_gcc\mingw\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/rtt_Kernel.dir/rt-thread/src/mempool.c.obj -MF CMakeFiles\rtt_Kernel.dir\rt-thread\src\mempool.c.obj.d -o CMakeFiles\rtt_Kernel.dir\rt-thread\src\mempool.c.obj -c E:\1_qianrushi_car\2\LPC1114_RTThread\rt-thread\src\mempool.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\1_qianrushi_car\LPC1114_RTThread\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/rtt_Kernel.dir/rt-thread/src/mempool.c.obj"
+	E:\env-windows-v2.0.0\env-windows\tools\gnu_gcc\arm_gcc\mingw\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/rtt_Kernel.dir/rt-thread/src/mempool.c.obj -MF CMakeFiles\rtt_Kernel.dir\rt-thread\src\mempool.c.obj.d -o CMakeFiles\rtt_Kernel.dir\rt-thread\src\mempool.c.obj -c E:\1_qianrushi_car\LPC1114_RTThread\rt-thread\src\mempool.c
 
 CMakeFiles/rtt_Kernel.dir/rt-thread/src/mempool.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/rtt_Kernel.dir/rt-thread/src/mempool.c.i"
-	E:\env-windows-v2.0.0\env-windows\tools\gnu_gcc\arm_gcc\mingw\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\1_qianrushi_car\2\LPC1114_RTThread\rt-thread\src\mempool.c > CMakeFiles\rtt_Kernel.dir\rt-thread\src\mempool.c.i
+	E:\env-windows-v2.0.0\env-windows\tools\gnu_gcc\arm_gcc\mingw\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\1_qianrushi_car\LPC1114_RTThread\rt-thread\src\mempool.c > CMakeFiles\rtt_Kernel.dir\rt-thread\src\mempool.c.i
 
 CMakeFiles/rtt_Kernel.dir/rt-thread/src/mempool.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/rtt_Kernel.dir/rt-thread/src/mempool.c.s"
-	E:\env-windows-v2.0.0\env-windows\tools\gnu_gcc\arm_gcc\mingw\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\1_qianrushi_car\2\LPC1114_RTThread\rt-thread\src\mempool.c -o CMakeFiles\rtt_Kernel.dir\rt-thread\src\mempool.c.s
+	E:\env-windows-v2.0.0\env-windows\tools\gnu_gcc\arm_gcc\mingw\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\1_qianrushi_car\LPC1114_RTThread\rt-thread\src\mempool.c -o CMakeFiles\rtt_Kernel.dir\rt-thread\src\mempool.c.s
 
 CMakeFiles/rtt_Kernel.dir/rt-thread/src/object.c.obj: CMakeFiles/rtt_Kernel.dir/flags.make
-CMakeFiles/rtt_Kernel.dir/rt-thread/src/object.c.obj: E:/1_qianrushi_car/2/LPC1114_RTThread/rt-thread/src/object.c
+CMakeFiles/rtt_Kernel.dir/rt-thread/src/object.c.obj: E:/1_qianrushi_car/LPC1114_RTThread/rt-thread/src/object.c
 CMakeFiles/rtt_Kernel.dir/rt-thread/src/object.c.obj: CMakeFiles/rtt_Kernel.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\1_qianrushi_car\2\LPC1114_RTThread\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/rtt_Kernel.dir/rt-thread/src/object.c.obj"
-	E:\env-windows-v2.0.0\env-windows\tools\gnu_gcc\arm_gcc\mingw\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/rtt_Kernel.dir/rt-thread/src/object.c.obj -MF CMakeFiles\rtt_Kernel.dir\rt-thread\src\object.c.obj.d -o CMakeFiles\rtt_Kernel.dir\rt-thread\src\object.c.obj -c E:\1_qianrushi_car\2\LPC1114_RTThread\rt-thread\src\object.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\1_qianrushi_car\LPC1114_RTThread\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/rtt_Kernel.dir/rt-thread/src/object.c.obj"
+	E:\env-windows-v2.0.0\env-windows\tools\gnu_gcc\arm_gcc\mingw\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/rtt_Kernel.dir/rt-thread/src/object.c.obj -MF CMakeFiles\rtt_Kernel.dir\rt-thread\src\object.c.obj.d -o CMakeFiles\rtt_Kernel.dir\rt-thread\src\object.c.obj -c E:\1_qianrushi_car\LPC1114_RTThread\rt-thread\src\object.c
 
 CMakeFiles/rtt_Kernel.dir/rt-thread/src/object.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/rtt_Kernel.dir/rt-thread/src/object.c.i"
-	E:\env-windows-v2.0.0\env-windows\tools\gnu_gcc\arm_gcc\mingw\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\1_qianrushi_car\2\LPC1114_RTThread\rt-thread\src\object.c > CMakeFiles\rtt_Kernel.dir\rt-thread\src\object.c.i
+	E:\env-windows-v2.0.0\env-windows\tools\gnu_gcc\arm_gcc\mingw\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\1_qianrushi_car\LPC1114_RTThread\rt-thread\src\object.c > CMakeFiles\rtt_Kernel.dir\rt-thread\src\object.c.i
 
 CMakeFiles/rtt_Kernel.dir/rt-thread/src/object.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/rtt_Kernel.dir/rt-thread/src/object.c.s"
-	E:\env-windows-v2.0.0\env-windows\tools\gnu_gcc\arm_gcc\mingw\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\1_qianrushi_car\2\LPC1114_RTThread\rt-thread\src\object.c -o CMakeFiles\rtt_Kernel.dir\rt-thread\src\object.c.s
+	E:\env-windows-v2.0.0\env-windows\tools\gnu_gcc\arm_gcc\mingw\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\1_qianrushi_car\LPC1114_RTThread\rt-thread\src\object.c -o CMakeFiles\rtt_Kernel.dir\rt-thread\src\object.c.s
 
 CMakeFiles/rtt_Kernel.dir/rt-thread/src/scheduler_comm.c.obj: CMakeFiles/rtt_Kernel.dir/flags.make
-CMakeFiles/rtt_Kernel.dir/rt-thread/src/scheduler_comm.c.obj: E:/1_qianrushi_car/2/LPC1114_RTThread/rt-thread/src/scheduler_comm.c
+CMakeFiles/rtt_Kernel.dir/rt-thread/src/scheduler_comm.c.obj: E:/1_qianrushi_car/LPC1114_RTThread/rt-thread/src/scheduler_comm.c
 CMakeFiles/rtt_Kernel.dir/rt-thread/src/scheduler_comm.c.obj: CMakeFiles/rtt_Kernel.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\1_qianrushi_car\2\LPC1114_RTThread\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/rtt_Kernel.dir/rt-thread/src/scheduler_comm.c.obj"
-	E:\env-windows-v2.0.0\env-windows\tools\gnu_gcc\arm_gcc\mingw\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/rtt_Kernel.dir/rt-thread/src/scheduler_comm.c.obj -MF CMakeFiles\rtt_Kernel.dir\rt-thread\src\scheduler_comm.c.obj.d -o CMakeFiles\rtt_Kernel.dir\rt-thread\src\scheduler_comm.c.obj -c E:\1_qianrushi_car\2\LPC1114_RTThread\rt-thread\src\scheduler_comm.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\1_qianrushi_car\LPC1114_RTThread\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/rtt_Kernel.dir/rt-thread/src/scheduler_comm.c.obj"
+	E:\env-windows-v2.0.0\env-windows\tools\gnu_gcc\arm_gcc\mingw\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/rtt_Kernel.dir/rt-thread/src/scheduler_comm.c.obj -MF CMakeFiles\rtt_Kernel.dir\rt-thread\src\scheduler_comm.c.obj.d -o CMakeFiles\rtt_Kernel.dir\rt-thread\src\scheduler_comm.c.obj -c E:\1_qianrushi_car\LPC1114_RTThread\rt-thread\src\scheduler_comm.c
 
 CMakeFiles/rtt_Kernel.dir/rt-thread/src/scheduler_comm.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/rtt_Kernel.dir/rt-thread/src/scheduler_comm.c.i"
-	E:\env-windows-v2.0.0\env-windows\tools\gnu_gcc\arm_gcc\mingw\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\1_qianrushi_car\2\LPC1114_RTThread\rt-thread\src\scheduler_comm.c > CMakeFiles\rtt_Kernel.dir\rt-thread\src\scheduler_comm.c.i
+	E:\env-windows-v2.0.0\env-windows\tools\gnu_gcc\arm_gcc\mingw\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\1_qianrushi_car\LPC1114_RTThread\rt-thread\src\scheduler_comm.c > CMakeFiles\rtt_Kernel.dir\rt-thread\src\scheduler_comm.c.i
 
 CMakeFiles/rtt_Kernel.dir/rt-thread/src/scheduler_comm.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/rtt_Kernel.dir/rt-thread/src/scheduler_comm.c.s"
-	E:\env-windows-v2.0.0\env-windows\tools\gnu_gcc\arm_gcc\mingw\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\1_qianrushi_car\2\LPC1114_RTThread\rt-thread\src\scheduler_comm.c -o CMakeFiles\rtt_Kernel.dir\rt-thread\src\scheduler_comm.c.s
+	E:\env-windows-v2.0.0\env-windows\tools\gnu_gcc\arm_gcc\mingw\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\1_qianrushi_car\LPC1114_RTThread\rt-thread\src\scheduler_comm.c -o CMakeFiles\rtt_Kernel.dir\rt-thread\src\scheduler_comm.c.s
 
 CMakeFiles/rtt_Kernel.dir/rt-thread/src/scheduler_up.c.obj: CMakeFiles/rtt_Kernel.dir/flags.make
-CMakeFiles/rtt_Kernel.dir/rt-thread/src/scheduler_up.c.obj: E:/1_qianrushi_car/2/LPC1114_RTThread/rt-thread/src/scheduler_up.c
+CMakeFiles/rtt_Kernel.dir/rt-thread/src/scheduler_up.c.obj: E:/1_qianrushi_car/LPC1114_RTThread/rt-thread/src/scheduler_up.c
 CMakeFiles/rtt_Kernel.dir/rt-thread/src/scheduler_up.c.obj: CMakeFiles/rtt_Kernel.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\1_qianrushi_car\2\LPC1114_RTThread\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/rtt_Kernel.dir/rt-thread/src/scheduler_up.c.obj"
-	E:\env-windows-v2.0.0\env-windows\tools\gnu_gcc\arm_gcc\mingw\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/rtt_Kernel.dir/rt-thread/src/scheduler_up.c.obj -MF CMakeFiles\rtt_Kernel.dir\rt-thread\src\scheduler_up.c.obj.d -o CMakeFiles\rtt_Kernel.dir\rt-thread\src\scheduler_up.c.obj -c E:\1_qianrushi_car\2\LPC1114_RTThread\rt-thread\src\scheduler_up.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\1_qianrushi_car\LPC1114_RTThread\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/rtt_Kernel.dir/rt-thread/src/scheduler_up.c.obj"
+	E:\env-windows-v2.0.0\env-windows\tools\gnu_gcc\arm_gcc\mingw\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/rtt_Kernel.dir/rt-thread/src/scheduler_up.c.obj -MF CMakeFiles\rtt_Kernel.dir\rt-thread\src\scheduler_up.c.obj.d -o CMakeFiles\rtt_Kernel.dir\rt-thread\src\scheduler_up.c.obj -c E:\1_qianrushi_car\LPC1114_RTThread\rt-thread\src\scheduler_up.c
 
 CMakeFiles/rtt_Kernel.dir/rt-thread/src/scheduler_up.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/rtt_Kernel.dir/rt-thread/src/scheduler_up.c.i"
-	E:\env-windows-v2.0.0\env-windows\tools\gnu_gcc\arm_gcc\mingw\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\1_qianrushi_car\2\LPC1114_RTThread\rt-thread\src\scheduler_up.c > CMakeFiles\rtt_Kernel.dir\rt-thread\src\scheduler_up.c.i
+	E:\env-windows-v2.0.0\env-windows\tools\gnu_gcc\arm_gcc\mingw\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\1_qianrushi_car\LPC1114_RTThread\rt-thread\src\scheduler_up.c > CMakeFiles\rtt_Kernel.dir\rt-thread\src\scheduler_up.c.i
 
 CMakeFiles/rtt_Kernel.dir/rt-thread/src/scheduler_up.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/rtt_Kernel.dir/rt-thread/src/scheduler_up.c.s"
-	E:\env-windows-v2.0.0\env-windows\tools\gnu_gcc\arm_gcc\mingw\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\1_qianrushi_car\2\LPC1114_RTThread\rt-thread\src\scheduler_up.c -o CMakeFiles\rtt_Kernel.dir\rt-thread\src\scheduler_up.c.s
+	E:\env-windows-v2.0.0\env-windows\tools\gnu_gcc\arm_gcc\mingw\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\1_qianrushi_car\LPC1114_RTThread\rt-thread\src\scheduler_up.c -o CMakeFiles\rtt_Kernel.dir\rt-thread\src\scheduler_up.c.s
 
 CMakeFiles/rtt_Kernel.dir/rt-thread/src/thread.c.obj: CMakeFiles/rtt_Kernel.dir/flags.make
-CMakeFiles/rtt_Kernel.dir/rt-thread/src/thread.c.obj: E:/1_qianrushi_car/2/LPC1114_RTThread/rt-thread/src/thread.c
+CMakeFiles/rtt_Kernel.dir/rt-thread/src/thread.c.obj: E:/1_qianrushi_car/LPC1114_RTThread/rt-thread/src/thread.c
 CMakeFiles/rtt_Kernel.dir/rt-thread/src/thread.c.obj: CMakeFiles/rtt_Kernel.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\1_qianrushi_car\2\LPC1114_RTThread\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/rtt_Kernel.dir/rt-thread/src/thread.c.obj"
-	E:\env-windows-v2.0.0\env-windows\tools\gnu_gcc\arm_gcc\mingw\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/rtt_Kernel.dir/rt-thread/src/thread.c.obj -MF CMakeFiles\rtt_Kernel.dir\rt-thread\src\thread.c.obj.d -o CMakeFiles\rtt_Kernel.dir\rt-thread\src\thread.c.obj -c E:\1_qianrushi_car\2\LPC1114_RTThread\rt-thread\src\thread.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\1_qianrushi_car\LPC1114_RTThread\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/rtt_Kernel.dir/rt-thread/src/thread.c.obj"
+	E:\env-windows-v2.0.0\env-windows\tools\gnu_gcc\arm_gcc\mingw\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/rtt_Kernel.dir/rt-thread/src/thread.c.obj -MF CMakeFiles\rtt_Kernel.dir\rt-thread\src\thread.c.obj.d -o CMakeFiles\rtt_Kernel.dir\rt-thread\src\thread.c.obj -c E:\1_qianrushi_car\LPC1114_RTThread\rt-thread\src\thread.c
 
 CMakeFiles/rtt_Kernel.dir/rt-thread/src/thread.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/rtt_Kernel.dir/rt-thread/src/thread.c.i"
-	E:\env-windows-v2.0.0\env-windows\tools\gnu_gcc\arm_gcc\mingw\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\1_qianrushi_car\2\LPC1114_RTThread\rt-thread\src\thread.c > CMakeFiles\rtt_Kernel.dir\rt-thread\src\thread.c.i
+	E:\env-windows-v2.0.0\env-windows\tools\gnu_gcc\arm_gcc\mingw\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\1_qianrushi_car\LPC1114_RTThread\rt-thread\src\thread.c > CMakeFiles\rtt_Kernel.dir\rt-thread\src\thread.c.i
 
 CMakeFiles/rtt_Kernel.dir/rt-thread/src/thread.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/rtt_Kernel.dir/rt-thread/src/thread.c.s"
-	E:\env-windows-v2.0.0\env-windows\tools\gnu_gcc\arm_gcc\mingw\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\1_qianrushi_car\2\LPC1114_RTThread\rt-thread\src\thread.c -o CMakeFiles\rtt_Kernel.dir\rt-thread\src\thread.c.s
+	E:\env-windows-v2.0.0\env-windows\tools\gnu_gcc\arm_gcc\mingw\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\1_qianrushi_car\LPC1114_RTThread\rt-thread\src\thread.c -o CMakeFiles\rtt_Kernel.dir\rt-thread\src\thread.c.s
 
 CMakeFiles/rtt_Kernel.dir/rt-thread/src/timer.c.obj: CMakeFiles/rtt_Kernel.dir/flags.make
-CMakeFiles/rtt_Kernel.dir/rt-thread/src/timer.c.obj: E:/1_qianrushi_car/2/LPC1114_RTThread/rt-thread/src/timer.c
+CMakeFiles/rtt_Kernel.dir/rt-thread/src/timer.c.obj: E:/1_qianrushi_car/LPC1114_RTThread/rt-thread/src/timer.c
 CMakeFiles/rtt_Kernel.dir/rt-thread/src/timer.c.obj: CMakeFiles/rtt_Kernel.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\1_qianrushi_car\2\LPC1114_RTThread\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/rtt_Kernel.dir/rt-thread/src/timer.c.obj"
-	E:\env-windows-v2.0.0\env-windows\tools\gnu_gcc\arm_gcc\mingw\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/rtt_Kernel.dir/rt-thread/src/timer.c.obj -MF CMakeFiles\rtt_Kernel.dir\rt-thread\src\timer.c.obj.d -o CMakeFiles\rtt_Kernel.dir\rt-thread\src\timer.c.obj -c E:\1_qianrushi_car\2\LPC1114_RTThread\rt-thread\src\timer.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\1_qianrushi_car\LPC1114_RTThread\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/rtt_Kernel.dir/rt-thread/src/timer.c.obj"
+	E:\env-windows-v2.0.0\env-windows\tools\gnu_gcc\arm_gcc\mingw\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/rtt_Kernel.dir/rt-thread/src/timer.c.obj -MF CMakeFiles\rtt_Kernel.dir\rt-thread\src\timer.c.obj.d -o CMakeFiles\rtt_Kernel.dir\rt-thread\src\timer.c.obj -c E:\1_qianrushi_car\LPC1114_RTThread\rt-thread\src\timer.c
 
 CMakeFiles/rtt_Kernel.dir/rt-thread/src/timer.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/rtt_Kernel.dir/rt-thread/src/timer.c.i"
-	E:\env-windows-v2.0.0\env-windows\tools\gnu_gcc\arm_gcc\mingw\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\1_qianrushi_car\2\LPC1114_RTThread\rt-thread\src\timer.c > CMakeFiles\rtt_Kernel.dir\rt-thread\src\timer.c.i
+	E:\env-windows-v2.0.0\env-windows\tools\gnu_gcc\arm_gcc\mingw\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\1_qianrushi_car\LPC1114_RTThread\rt-thread\src\timer.c > CMakeFiles\rtt_Kernel.dir\rt-thread\src\timer.c.i
 
 CMakeFiles/rtt_Kernel.dir/rt-thread/src/timer.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/rtt_Kernel.dir/rt-thread/src/timer.c.s"
-	E:\env-windows-v2.0.0\env-windows\tools\gnu_gcc\arm_gcc\mingw\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\1_qianrushi_car\2\LPC1114_RTThread\rt-thread\src\timer.c -o CMakeFiles\rtt_Kernel.dir\rt-thread\src\timer.c.s
+	E:\env-windows-v2.0.0\env-windows\tools\gnu_gcc\arm_gcc\mingw\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\1_qianrushi_car\LPC1114_RTThread\rt-thread\src\timer.c -o CMakeFiles\rtt_Kernel.dir\rt-thread\src\timer.c.s
 
 rtt_Kernel: CMakeFiles/rtt_Kernel.dir/rt-thread/src/clock.c.obj
 rtt_Kernel: CMakeFiles/rtt_Kernel.dir/rt-thread/src/components.c.obj
@@ -305,6 +305,6 @@ CMakeFiles/rtt_Kernel.dir/clean:
 .PHONY : CMakeFiles/rtt_Kernel.dir/clean
 
 CMakeFiles/rtt_Kernel.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" E:\1_qianrushi_car\2\LPC1114_RTThread E:\1_qianrushi_car\2\LPC1114_RTThread E:\1_qianrushi_car\2\LPC1114_RTThread\cmake-build-debug E:\1_qianrushi_car\2\LPC1114_RTThread\cmake-build-debug E:\1_qianrushi_car\2\LPC1114_RTThread\cmake-build-debug\CMakeFiles\rtt_Kernel.dir\DependInfo.cmake "--color=$(COLOR)"
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" E:\1_qianrushi_car\LPC1114_RTThread E:\1_qianrushi_car\LPC1114_RTThread E:\1_qianrushi_car\LPC1114_RTThread\cmake-build-debug E:\1_qianrushi_car\LPC1114_RTThread\cmake-build-debug E:\1_qianrushi_car\LPC1114_RTThread\cmake-build-debug\CMakeFiles\rtt_Kernel.dir\DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/rtt_Kernel.dir/depend
 

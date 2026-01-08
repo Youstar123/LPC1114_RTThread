@@ -1,10 +1,12 @@
 file(REMOVE_RECURSE
   "CMakeFiles/rtt_Drivers.dir/driver/board.c.obj"
   "CMakeFiles/rtt_Drivers.dir/driver/board.c.obj.d"
-  "CMakeFiles/rtt_Drivers.dir/driver/gpio.c.obj"
-  "CMakeFiles/rtt_Drivers.dir/driver/gpio.c.obj.d"
-  "CMakeFiles/rtt_Drivers.dir/driver/led.c.obj"
-  "CMakeFiles/rtt_Drivers.dir/driver/led.c.obj.d"
+  "CMakeFiles/rtt_Drivers.dir/driver/drivers/gpio.c.obj"
+  "CMakeFiles/rtt_Drivers.dir/driver/drivers/gpio.c.obj.d"
+  "CMakeFiles/rtt_Drivers.dir/driver/modules/key/key.c.obj"
+  "CMakeFiles/rtt_Drivers.dir/driver/modules/key/key.c.obj.d"
+  "CMakeFiles/rtt_Drivers.dir/driver/modules/led/led.c.obj"
+  "CMakeFiles/rtt_Drivers.dir/driver/modules/led/led.c.obj.d"
   "CMakeFiles/rtt_Drivers.dir/driver/startup_gcc.s.obj"
 )
 

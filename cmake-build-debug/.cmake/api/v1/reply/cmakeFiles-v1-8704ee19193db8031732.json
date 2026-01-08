@@ -1252,8 +1252,8 @@
 	"kind" : "cmakeFiles",
 	"paths" : 
 	{
-		"build" : "E:/1_qianrushi_car/2/LPC1114_RTThread/cmake-build-debug",
-		"source" : "E:/1_qianrushi_car/2/LPC1114_RTThread"
+		"build" : "E:/1_qianrushi_car/LPC1114_RTThread/cmake-build-debug",
+		"source" : "E:/1_qianrushi_car/LPC1114_RTThread"
 	},
 	"version" : 
 	{

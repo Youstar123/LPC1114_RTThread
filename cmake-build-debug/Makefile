@@ -56,10 +56,10 @@ RM = "E:\Clion\CLion 2023.2.2\bin\cmake\win\x64\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = E:\1_qianrushi_car\2\LPC1114_RTThread
+CMAKE_SOURCE_DIR = E:\1_qianrushi_car\LPC1114_RTThread
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = E:\1_qianrushi_car\2\LPC1114_RTThread\cmake-build-debug
+CMAKE_BINARY_DIR = E:\1_qianrushi_car\LPC1114_RTThread\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -86,9 +86,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\1_qianrushi_car\2\LPC1114_RTThread\cmake-build-debug\CMakeFiles E:\1_qianrushi_car\2\LPC1114_RTThread\cmake-build-debug\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\1_qianrushi_car\LPC1114_RTThread\cmake-build-debug\CMakeFiles E:\1_qianrushi_car\LPC1114_RTThread\cmake-build-debug\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\1_qianrushi_car\2\LPC1114_RTThread\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\1_qianrushi_car\LPC1114_RTThread\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -276,53 +276,77 @@ driver/board.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\rtt_Drivers.dir\build.make CMakeFiles/rtt_Drivers.dir/driver/board.c.s
 .PHONY : driver/board.c.s
 
-driver/gpio.obj: driver/gpio.c.obj
-.PHONY : driver/gpio.obj
+driver/drivers/gpio.obj: driver/drivers/gpio.c.obj
+.PHONY : driver/drivers/gpio.obj
 
 # target to build an object file
-driver/gpio.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\rtt_Drivers.dir\build.make CMakeFiles/rtt_Drivers.dir/driver/gpio.c.obj
-.PHONY : driver/gpio.c.obj
+driver/drivers/gpio.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\rtt_Drivers.dir\build.make CMakeFiles/rtt_Drivers.dir/driver/drivers/gpio.c.obj
+.PHONY : driver/drivers/gpio.c.obj
 
-driver/gpio.i: driver/gpio.c.i
-.PHONY : driver/gpio.i
+driver/drivers/gpio.i: driver/drivers/gpio.c.i
+.PHONY : driver/drivers/gpio.i
 
 # target to preprocess a source file
-driver/gpio.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\rtt_Drivers.dir\build.make CMakeFiles/rtt_Drivers.dir/driver/gpio.c.i
-.PHONY : driver/gpio.c.i
+driver/drivers/gpio.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\rtt_Drivers.dir\build.make CMakeFiles/rtt_Drivers.dir/driver/drivers/gpio.c.i
+.PHONY : driver/drivers/gpio.c.i
 
-driver/gpio.s: driver/gpio.c.s
-.PHONY : driver/gpio.s
+driver/drivers/gpio.s: driver/drivers/gpio.c.s
+.PHONY : driver/drivers/gpio.s
 
 # target to generate assembly for a file
-driver/gpio.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\rtt_Drivers.dir\build.make CMakeFiles/rtt_Drivers.dir/driver/gpio.c.s
-.PHONY : driver/gpio.c.s
+driver/drivers/gpio.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\rtt_Drivers.dir\build.make CMakeFiles/rtt_Drivers.dir/driver/drivers/gpio.c.s
+.PHONY : driver/drivers/gpio.c.s
 
-driver/led.obj: driver/led.c.obj
-.PHONY : driver/led.obj
+driver/modules/key/key.obj: driver/modules/key/key.c.obj
+.PHONY : driver/modules/key/key.obj
 
 # target to build an object file
-driver/led.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\rtt_Drivers.dir\build.make CMakeFiles/rtt_Drivers.dir/driver/led.c.obj
-.PHONY : driver/led.c.obj
+driver/modules/key/key.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\rtt_Drivers.dir\build.make CMakeFiles/rtt_Drivers.dir/driver/modules/key/key.c.obj
+.PHONY : driver/modules/key/key.c.obj
 
-driver/led.i: driver/led.c.i
-.PHONY : driver/led.i
+driver/modules/key/key.i: driver/modules/key/key.c.i
+.PHONY : driver/modules/key/key.i
 
 # target to preprocess a source file
-driver/led.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\rtt_Drivers.dir\build.make CMakeFiles/rtt_Drivers.dir/driver/led.c.i
-.PHONY : driver/led.c.i
+driver/modules/key/key.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\rtt_Drivers.dir\build.make CMakeFiles/rtt_Drivers.dir/driver/modules/key/key.c.i
+.PHONY : driver/modules/key/key.c.i
 
-driver/led.s: driver/led.c.s
-.PHONY : driver/led.s
+driver/modules/key/key.s: driver/modules/key/key.c.s
+.PHONY : driver/modules/key/key.s
 
 # target to generate assembly for a file
-driver/led.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\rtt_Drivers.dir\build.make CMakeFiles/rtt_Drivers.dir/driver/led.c.s
-.PHONY : driver/led.c.s
+driver/modules/key/key.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\rtt_Drivers.dir\build.make CMakeFiles/rtt_Drivers.dir/driver/modules/key/key.c.s
+.PHONY : driver/modules/key/key.c.s
+
+driver/modules/led/led.obj: driver/modules/led/led.c.obj
+.PHONY : driver/modules/led/led.obj
+
+# target to build an object file
+driver/modules/led/led.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\rtt_Drivers.dir\build.make CMakeFiles/rtt_Drivers.dir/driver/modules/led/led.c.obj
+.PHONY : driver/modules/led/led.c.obj
+
+driver/modules/led/led.i: driver/modules/led/led.c.i
+.PHONY : driver/modules/led/led.i
+
+# target to preprocess a source file
+driver/modules/led/led.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\rtt_Drivers.dir\build.make CMakeFiles/rtt_Drivers.dir/driver/modules/led/led.c.i
+.PHONY : driver/modules/led/led.c.i
+
+driver/modules/led/led.s: driver/modules/led/led.c.s
+.PHONY : driver/modules/led/led.s
+
+# target to generate assembly for a file
+driver/modules/led/led.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\rtt_Drivers.dir\build.make CMakeFiles/rtt_Drivers.dir/driver/modules/led/led.c.s
+.PHONY : driver/modules/led/led.c.s
 
 driver/startup_gcc.obj: driver/startup_gcc.s.obj
 .PHONY : driver/startup_gcc.obj
@@ -917,12 +941,15 @@ help:
 	@echo ... driver/board.obj
 	@echo ... driver/board.i
 	@echo ... driver/board.s
-	@echo ... driver/gpio.obj
-	@echo ... driver/gpio.i
-	@echo ... driver/gpio.s
-	@echo ... driver/led.obj
-	@echo ... driver/led.i
-	@echo ... driver/led.s
+	@echo ... driver/drivers/gpio.obj
+	@echo ... driver/drivers/gpio.i
+	@echo ... driver/drivers/gpio.s
+	@echo ... driver/modules/key/key.obj
+	@echo ... driver/modules/key/key.i
+	@echo ... driver/modules/key/key.s
+	@echo ... driver/modules/led/led.obj
+	@echo ... driver/modules/led/led.i
+	@echo ... driver/modules/led/led.s
 	@echo ... driver/startup_gcc.obj
 	@echo ... rt-thread/libcpu/arm/common/div0.obj
 	@echo ... rt-thread/libcpu/arm/common/div0.i
